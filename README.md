@@ -1,4 +1,4 @@
-# Shopify Armenian Checkout Locale
+# Shopify Armenian Locale
 
 Armenian (`hy`) locale coverage for Shopify checkout and customer order pages,
 built from Shopify's Horizon theme locale structure and Med911's Armenian
