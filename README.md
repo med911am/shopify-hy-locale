@@ -23,9 +23,9 @@ pack prioritizes the storefront, checkout purchase flow, and customer order
 pages over lower-priority B2B, payment-method-management, blog, gift-card, and
 generic system notice strings.
 
-Some long-tail checkout error strings were machine-translated from Russian and
-validated for placeholder preservation. Human review is recommended before
-using this as a canonical public localization.
+Some long-tail checkout error strings were imported from earlier machine output.
+For canonical public localization, review Shopify system labels against the
+English source strings and preserve Liquid/Shopify placeholders exactly.
 
 ## Usage
 
@@ -49,4 +49,4 @@ For Med911, the live theme was verified with:
 - missing Armenian checkout keys: 0
 - customer order-history/order-detail keys restored: 409
 - missing customer order-history/order-detail keys: 0
-- final locale leaf keys: 3,360
+- final locale leaf keys: 3,374
