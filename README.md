@@ -23,9 +23,11 @@ pack prioritizes the storefront, checkout purchase flow, and customer order
 pages over lower-priority B2B, payment-method-management, blog, gift-card, and
 generic system notice strings.
 
-Some long-tail checkout error strings were imported from earlier machine output.
-For canonical public localization, review Shopify system labels against the
-English source strings and preserve Liquid/Shopify placeholders exactly.
+The checkout pack has been reviewed against Shopify's English translation
+resource, not only the store's Russian default source. Russian-sourced machine
+fills were kept only where they read better in Armenian; high-confidence meaning
+drift, brand-name, payment-error, and placeholder-format issues were corrected
+from English.
 
 ## Usage
 

@@ -308,7 +308,7 @@
         "checkout_context": {
           "step_one": "%{shop_name}՝ պատվերի ձևակերպում"
         },
-        "autocomplete_selection": "{{number}} {{total}}-ից",
+        "autocomplete_selection": "{{number}} / {{total}}",
         "display_name": "{{firstName}} {{lastName}}",
         "list_formatter": {
           "and": {
@@ -394,7 +394,7 @@
         "postcode_placeholder": "Փոստային ինդեքս",
         "pincode_label": "PIN կոդը",
         "pincode_placeholder": "PIN կոդը",
-        "company_contact_info": "{{companyName}} {{contact}}",
+        "company_contact_info": "{{companyName}} · {{contact}}",
         "change_company_location_link_label": "Փոխել ընկերության գտնվելու վայրը",
         "optional_postcode_label": "Փոստային ինդեքս (ըստ ցանկության)",
         "optional_pincode_label": "PIN (ըստ ցանկության)",
@@ -577,7 +577,7 @@
         "errors": {
           "unavailable": {
             "title": "{{walletName}} մատչելի չէ",
-            "description": "<p>Վճարումը {{walletName}} միջոցով անհասանելի էր։ Խնդրում ենք ընտրել այլ եղանակ կամ փորձել կրկին ավելի ուշ:</p>",
+            "description": "{{walletName}}-ը հասանելի չէր։ Օգտագործեք վճարման այլ եղանակ կամ փորձեք ավելի ուշ։",
             "instructions": "{{walletName}}-ի հետ կապված խնդիր է առաջացել։ Խնդրում ենք անցնել խանութ՝ կրկին փորձելու կամ այլ պարամետրերով պատվեր կատարելու համար։",
             "unavailable_for_country": "{{walletName}} ծառայությունը հասանելի չէ {{countryName}} տարածաշրջանում: Ընտրեք վճարման այլ եղանակ՝ գնումը կատարելու համար:"
           },
@@ -799,7 +799,7 @@
           }
         },
         "action_required": "Ձեր ուշադրությունն է հարկավոր",
-        "redirecting_to_bank": "<p>\n  Վերահղում դեպի {{bank}} էջ\n</p>",
+        "redirecting_to_bank": "Վերահղում դեպի {{bank}}",
         "modal_notice": "Կապվում ենք {{paymentMethod}}-ի հետ",
         "remote_shops_payments_processing": "Վճարումները մշակվում են...",
         "remote_checkout_count": "%{current}-ը %{total}-ից"
@@ -835,7 +835,7 @@
         "fixed_payment_label": "Վճարումը պետք է կատարել մինչև {{dueDate}}-ը։",
         "fixed_direct_payment_terms": "Վճարումը կգանձվի Ձեր քարտից {{dueDate}}:",
         "order_deposit_due_now": "{{depositAmount}}-ի վճարման ժամկետ՝ այսօր։ Հաշվի մնացորդի համար գործում են {{translatedName}}-ի պայմանները, և վճարումը պետք է կատարվի մինչև {{dueDate}}։",
-        "order_deposit_due_on_fulfillment": "<p>Վճարման ժամկետը՝ {{depositAmount}}. այսօր: Վճարումը պետք է կատարվի Ձեր պատվերի կատարումից հետո:</p>",
+        "order_deposit_due_on_fulfillment": "{{depositAmount}} վճարման ենթակա է այսօր։ Մնացորդը վճարման ենթակա կլինի, երբ պատվերը կատարվի։",
         "order_due_on_receipt_choose_later": "Վճարման գումարը հասանելի կլինի անդորրագրում։",
         "draft_order_deposit_due_later": "Պատվերի արժեքի {{depositAmount}} վճարումը պետք է կատարվի պատվերը կատարելուց հետո։ Հաշվի մնացորդի համար գործում են {{translatedName}}-ի պայմանները։",
         "draft_order_deposit_due_on_fulfillment": "Պատվերի {{depositAmount}} վճարումը պետք է կատարվի պատվերը կատարելուց հետո։ Վճարումը պետք է կատարվի պատվերը կատարելուց հետո։",
@@ -1231,7 +1231,7 @@
             "other": "Անվճար առաքում առաջին %{cycle}-ի համար, այնուհետև՝ %{recurring_order_shipping_price}",
             "few": "Անվճար առաքում առաջին %{cycle}-ի ընթացքում, այնուհետև՝ %{recurring_order_shipping_price}",
             "many": "Անվճար առաքում առաջին %{cycle} ընթացքում, այնուհետև՝ %{recurring_order_shipping_price}",
-            "one": "Անվճար առաքում առաջին %{cycle}-ի, այնուհետև %{recurring_order_shipping_price}-ի համար"
+            "one": "Անվճար առաքում առաջին %{cycle}-ի համար, այնուհետև՝ %{recurring_order_shipping_price}"
           },
           "prepaid_order_one_cycle": {
             "one": "Առաքման գինը՝ %{shipping_price}, գործում է ևս %{count} պատվերի համար",
@@ -1258,96 +1258,96 @@
             "many": "Առաքման գինը՝ %{shipping_price}, գործում է %{count} պատվերների համար (%{per_delivery_cost}), հետո՝ %{recurring_order_shipping_price}"
           },
           "prepaid_delivery_frequency": {
-            "one": "%{count}  առաքման համար",
-            "other": "որոշակի քանակությամբ առաքումների համար (%{count})",
-            "few": "որոշակի քանակությամբ առաքումների համար (%{count})",
-            "many": "որոշակի քանակությամբ առաքումների համար (%{count})"
+            "one": "%{count} առաքման համար",
+            "other": "%{count} առաքումների համար",
+            "few": "%{count} առաքումների համար",
+            "many": "%{count} առաքումների համար"
           },
           "subscription_delivery_frequency": {
             "day": {
               "one": "ամեն օր",
-              "other": "ամեն %{count} օր",
-              "few": "ամեն %{count} օր",
-              "many": "ամեն %{count} օր"
+              "other": "յուրաքանչյուր %{count} օր",
+              "few": "յուրաքանչյուր %{count} օր",
+              "many": "յուրաքանչյուր %{count} օր"
             },
             "week": {
               "one": "ամեն շաբաթ",
-              "other": "յուրաքանչյուր %{count} շաբաթ:",
-              "few": "յուրաքանչյուր %{count} շաբաթ:",
-              "many": "յուրաքանչյուր %{count} շաբաթ:"
+              "other": "յուրաքանչյուր %{count} շաբաթ",
+              "few": "յուրաքանչյուր %{count} շաբաթ",
+              "many": "յուրաքանչյուր %{count} շաբաթ"
             },
             "month": {
               "one": "ամեն ամիս",
-              "other": "յուրաքանչյուր %{count} ամիս:",
-              "few": "յուրաքանչյուր %{count} ամիս:",
-              "many": "յուրաքանչյուր %{count} ամիս:"
+              "other": "յուրաքանչյուր %{count} ամիս",
+              "few": "յուրաքանչյուր %{count} ամիս",
+              "many": "յուրաքանչյուր %{count} ամիս"
             },
             "year": {
               "one": "ամեն տարի",
-              "other": "յուրաքանչյուր %{count} տարի:",
-              "few": "յուրաքանչյուր %{count} տարի:",
-              "many": "յուրաքանչյուր %{count} տարի:"
+              "other": "յուրաքանչյուր %{count} տարի",
+              "few": "յուրաքանչյուր %{count} տարի",
+              "many": "յուրաքանչյուր %{count} տարի"
             }
           },
-          "multiple_subscriptions_shipping_price_label": "%{shipping_price} առաքման համար",
-          "prepaid_shipping_price_label": "%{shipping_price} առաքման համար x %{delivery_interval_count}",
-          "initial_order_discounted": "Նախ առաքում %{discounted_shipping_cost}-ի համար, այնուհետև` %{frequency_description}",
-          "prepaid_initial_order_discounted": "Առաջին առաքում %{discounted_shipping_price} %{prepaid_delivery_frequency}-ի համար",
-          "prepaid_initial_order_discounted_with_per_delivery_price": "Առաջին առաքում %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
-          "prepaid_initial_order_discounted_with_renewal": "Առաջին առաքումը %{discounted_shipping_price} %{prepaid_delivery_frequency}-ի, այնուհետև %{shipping_price} %{billing_cycle}-ի համար",
-          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Առաջին առաքում %{discounted_shipping_price} %{prepaid_delivery_frequency} ( %{discounted_cost_per_delivery} ), ապա %{shipping_price} %{billing_cycle}",
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} յուրաքանչյուր առաքման համար",
+          "prepaid_shipping_price_label": "%{shipping_price} յուրաքանչյուր առաքման համար × %{delivery_interval_count}",
+          "initial_order_discounted": "Առաջին առաքման արժեքը՝ %{discounted_shipping_cost}, այնուհետև՝ %{frequency_description}",
+          "prepaid_initial_order_discounted": "Առաջին առաքման արժեքը՝ %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Առաջին առաքման արժեքը՝ %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Առաջին առաքման արժեքը՝ %{discounted_shipping_price} %{prepaid_delivery_frequency}, այնուհետև՝ %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Առաջին առաքման արժեքը՝ %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), այնուհետև՝ %{shipping_price} %{billing_cycle}",
           "shipping_price_included": "Ներառված է",
-          "recurring_order_shipping_price": "%{recurring_order_shipping_price}-ի հետ",
-          "first_order_shipping_price_included": "Արժեքը, ներառյալ առաջին պատվերը, գումարած %{recurring_order_shipping_price}",
-          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} առաքման համար) գումարած %{recurring_order_shipping_price}",
+          "recurring_order_shipping_price": "այնուհետև՝ %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Առաջին պատվերը ներառված է, այնուհետև՝ %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} յուրաքանչյուր առաքման համար), այնուհետև՝ %{recurring_order_shipping_price}",
           "first_n_order_free": {
-            "one": "Առաջին պատվերը անվճար է",
-            "other": "Առաջին մի քանի պատվերներ (%{count}) - անվճար",
-            "few": "Առաջին մի քանի պատվերներ (%{count}) - անվճար",
-            "many": "Առաջին մի քանի պատվերներ (%{count}) - անվճար"
+            "one": "Առաջին պատվերն անվճար է",
+            "other": "Առաջին %{count} պատվերներն անվճար են",
+            "few": "Առաջին %{count} պատվերներն անվճար են",
+            "many": "Առաջին %{count} պատվերներն անվճար են"
           },
           "free_for_first_n_order": {
             "one": "Առաջին պատվերի համար",
-            "other": "Առաջին մի քանի պատվերների համար (%{count})",
-            "few": "Առաջին մի քանի պատվերների համար (%{count})",
-            "many": "Առաջին մի քանի պատվերների համար (%{count})"
+            "other": "Առաջին %{count} պատվերների համար",
+            "few": "Առաջին %{count} պատվերների համար",
+            "many": "Առաջին %{count} պատվերների համար"
           },
           "subscription_free_with_frequency_label": "Անվճար առաքում %{delivery_frequency}",
           "free_shipping_cycles": {
-            "one": "%{count}  պատվերների համար անվճար առաքում",
-            "other": "Ավելի շատ %{count}  պատվերների անվճար առաքում",
-            "few": "Ավելի շատ %{count}  պատվերների անվճար առաքում",
-            "many": "Ավելի շատ %{count}  պատվերների անվճար առաքում"
+            "one": "Անվճար առաքում ևս %{count} առաքման համար",
+            "other": "Անվճար առաքում ևս %{count} առաքումների համար",
+            "few": "Անվճար առաքում ևս %{count} առաքումների համար",
+            "many": "Անվճար առաքում ևս %{count} առաքումների համար"
           },
           "free_shipping_cycles_delivery_not_included": {
-            "one": "%{count}  պատվերների անվճար առաքում",
-            "other": "%{count}  պատվերների անվճար առաքում",
-            "few": "%{count}  պատվերների անվճար առաքում",
-            "many": "%{count}  պատվերների անվճար առաքում"
+            "one": "Անվճար առաքում %{count} առաքման համար",
+            "other": "Անվճար առաքում %{count} առաքումների համար",
+            "few": "Անվճար առաքում %{count} առաքումների համար",
+            "many": "Անվճար առաքում %{count} առաքումների համար"
           },
           "first_n_order_free_with_cycle": {
-            "one": "Մեկ այլ %{count} պատվերի համար անվճար առաքում, այնուհետև՝ %{recurring_order_shipping_price}",
-            "other": "Ավելի շատ %{count} պատվերների համար անվճար առաքում, այնուհետև՝ %{recurring_order_shipping_price}",
-            "few": "Ավելի շատ %{count} պատվերների համար անվճար առաքում, այնուհետև՝ %{recurring_order_shipping_price}",
-            "many": "Ավելի շատ %{count} պատվերների համար անվճար առաքում, այնուհետև՝ %{recurring_order_shipping_price}"
+            "one": "Անվճար առաքում ևս %{count} առաքման համար, այնուհետև՝ %{recurring_order_shipping_price}",
+            "other": "Անվճար առաքում ևս %{count} առաքումների համար, այնուհետև՝ %{recurring_order_shipping_price}",
+            "few": "Անվճար առաքում ևս %{count} առաքումների համար, այնուհետև՝ %{recurring_order_shipping_price}",
+            "many": "Անվճար առաքում ևս %{count} առաքումների համար, այնուհետև՝ %{recurring_order_shipping_price}"
           },
           "first_n_order_free_with_cycle_delivery_not_included": {
-            "one": "%{count} պատվերի համար անվճար առաքում, այնուհետև %{recurring_order_shipping_price}",
-            "other": "%{count} պատվերների համար անվճար առաքում, այնուհետև %{recurring_order_shipping_price}",
-            "few": "%{count} պատվերների համար անվճար առաքում, այնուհետև %{recurring_order_shipping_price}",
-            "many": "%{count} պատվերների համար անվճար առաքում, այնուհետև %{recurring_order_shipping_price}"
+            "one": "Անվճար առաքում %{count} առաքման համար, այնուհետև՝ %{recurring_order_shipping_price}",
+            "other": "Անվճար առաքում %{count} առաքումների համար, այնուհետև՝ %{recurring_order_shipping_price}",
+            "few": "Անվճար առաքում %{count} առաքումների համար, այնուհետև՝ %{recurring_order_shipping_price}",
+            "many": "Անվճար առաքում %{count} առաքումների համար, այնուհետև՝ %{recurring_order_shipping_price}"
           },
           "max_cycles_base_shipping": {
-            "one": "Առաքման գինը %{shipping_price} վավեր է մեկ այլ %{count} պատվերի համար",
-            "other": "Առաքման գինը %{shipping_price} վավեր է ավելի շատ %{count} պատվերների համար",
-            "few": "Առաքման գինը %{shipping_price} վավեր է ավելի շատ %{count} պատվերների համար",
-            "many": "Առաքման գինը %{shipping_price} վավեր է ավելի շատ %{count} պատվերների համար"
+            "one": "Եվս %{count} առաքում՝ %{shipping_price}-ով",
+            "other": "Եվս %{count} առաքում՝ յուրաքանչյուրը %{shipping_price}-ով",
+            "few": "Եվս %{count} առաքում՝ յուրաքանչյուրը %{shipping_price}-ով",
+            "many": "Եվս %{count} առաքում՝ յուրաքանչյուրը %{shipping_price}-ով"
           },
           "max_cycles_base_shipping_delivery_not_included": {
-            "one": "Առաքման գինը %{shipping_price} վավեր է %{count} պատվերի համար",
-            "other": "Առաքման գինը %{shipping_price} վավեր է ավելի շատ %{count} պատվերների համար",
-            "few": "Առաքման գինը %{shipping_price} վավեր է ավելի շատ %{count} պատվերների համար",
-            "many": "Առաքման գինը %{shipping_price} վավեր է ավելի շատ %{count} պատվերների համար"
+            "one": "%{count} առաքում՝ %{shipping_price}-ով",
+            "other": "Եվս %{count} առաքում՝ յուրաքանչյուրը %{shipping_price}-ով",
+            "few": "Եվս %{count} առաքում՝ յուրաքանչյուրը %{shipping_price}-ով",
+            "many": "Եվս %{count} առաքում՝ յուրաքանչյուրը %{shipping_price}-ով"
           }
         },
         "estimated_delivery_time": "Ենթադրյալ առաքման ժամանակը՝ %{time}",
@@ -1480,8 +1480,8 @@
           "many": "%{count} աշխատանքային օր"
         },
         "shipping_method_notice": " ",
-        "delivery_date_range": "%{min_time} – %{max_time}",
-        "split_shipping_merchandise_quantity_label_inline": "%{merchandise_title}: %{quantity}"
+        "delivery_date_range": "%{min_time}–%{max_time}",
+        "split_shipping_merchandise_quantity_label_inline": "%{merchandise_title} × %{quantity}"
       },
       "change_currency": {
         "credit_card_will_be_charged_html": "Ձեր կրեդիտ քարտից կգանձվի %{amount}",
@@ -1606,7 +1606,7 @@
           "tax_credential_type_co": "Նույնականացման փաստաթղթի տեսակը",
           "shipping_credential_co": "Նույնականացման քարտ/ԱԱՀ",
           "shipping_credential_type_co": "Նույնականացման տեսակ",
-          "tax_credential_cr": "Идентификационный номер / RUT",
+          "tax_credential_cr": "Նույնականացման համար / RUT",
           "shipping_credential_cr": "Նույնականացման համար / RUT",
           "tax_credential_ec": "CI/RUC/IVA կոդ",
           "shipping_credential_ec": "CI/RUC/IVA կոդ",
@@ -1896,7 +1896,7 @@
           "title": "Մնացորդը՝ {{amount_due}} չափով, պետք է վճարվի մինչև {{due_at}}",
           "due_on_fulfillment_title": "Մնացորդը՝ {{amount_due}} չափով, պետք է վճարվի կատարման պահին"
         },
-        "eligible_customer_missing_notice": "<p>Պրոմոկոդ <strong style=\"text-transform:uppercase\">%{code}</strong> ստանալու համար հաճախորդը պետք է համապատասխանի պահանջներին</p>",
+        "eligible_customer_missing_notice": "<strong style=\"text-transform:uppercase\">%{code}</strong> զեղչի կոդը պահանջում է համապատասխան հաճախորդ",
         "subtotal_label_with_quantity": {
           "one": "Միջանկյալ արդյունք • %{count} ապրանք",
           "other": "Միջանկյալ արդյունք • %{count} ապրանք",
@@ -2535,7 +2535,7 @@
         "giropay_label": "Ժիրոպայ",
         "eps_label": "eps-Überweisung",
         "klarna_slice_it_label": "Klarna վարկային միջոցներ",
-        "ideal_label": "ԻԴԻԱԼԱԿԱՆ | Wero",
+        "ideal_label": "iDEAL | Wero",
         "no_real_orders_dev_store": "Այս խանութը չի կարող ընդունել իրական պատվերներ կամ իրական վճարումներ:",
         "order_covered_by_gift_cards_notice": {
           "one": "Ձեր պատվերի գումարը ծածկվում է նվեր քարտով:",
@@ -2565,8 +2565,8 @@
         "different_credit_card_label": "Օգտագործեք մեկ այլ քարտ",
         "delete_customer_mandate_modal_cancel": "Չեղարկել",
         "apple": {
-          "connect": "Սեղմեք՝ ձեր PayPal հաշիվը միացնելու համար:",
-          "not_available": "Apple Pay-ը հասանելի չէ ձեր բրաուզերում: Ձեր Apple Pay հաշիվը միացնելու համար օգտագործեք Safari զննարկիչը ձեր Apple սարքում:"
+          "connect": "Սեղմեք՝ ձեր Apple Pay հաշիվը միացնելու համար",
+          "not_available": "Apple Pay-ը հասանելի չէ այս դիտարկիչում։ Ձեր Apple Pay հաշիվը միացնելու համար օգտագործեք Safari-ն Apple սարքում։"
         },
         "account_connected": "Հաշիվը միացված է",
         "billing_address_associated_with_mandate": "Օգտագործեք ձեր վճարման եղանակի հետ կապված հասցեն",
@@ -2581,8 +2581,8 @@
         "delete_customer_mandate_modal_body": "Եթե ​​հեռացնեք այս քարտը, պետք է այն նորից ավելացնեք նախքան վճարումներ կատարելը:",
         "delete_customer_mandate_modal_confirm": "Հեռացնել քարտը",
         "google": {
-          "connect": "Սեղմեք՝ ձեր Google Pay հաշիվը միացնելու համար:",
-          "error_authorizing": "Վճարումը թույլատրելիս սխալ է տեղի ունեցել"
+          "connect": "Սեղմեք՝ ձեր Google Pay հաշիվը միացնելու համար",
+          "error_authorizing": "Վճարման թույլտվության սխալ"
         },
         "klarna_label": "Կլարնա",
         "mor_disclaimer_html": "Սեղմելով ստորև բերված կոճակը և լրացնելով ձեր պատվերը՝ դուք համաձայնում եք ապրանքներ գնել Global-e-ից որպես \n գրանցված վաճառող այս գործարքի միջոցով և համաձայնում եք <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\"> </a> \n Պայմաններին և <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\"> </a> Global-e Գաղտնիության քաղաքականությանը: Global-e-ն \n-ի կատարման ծառայության միջազգային մատակարար է %{shop_name} \n խանութի համար",
@@ -2594,7 +2594,7 @@
         "grabpay_label": "GrabPay",
         "usdc_label": "USDC",
         "alipay_label": "Ալիփայ",
-        "wechat_pay_label": "WeChat վճարում"
+        "wechat_pay_label": "WeChat Pay"
       },
       "deliverability": {
         "not_deliverable": {
@@ -2991,7 +2991,7 @@
         "status_column_header": "Կարգավիճակ",
         "sold_out_label": "Վաճառվել է",
         "reduced_label": "Համառոտ",
-        "reduced_with_quantity_label": "Մնացել է՝ ընդհանուր %{quantity_available}",
+        "reduced_with_quantity_label": "Մնացել է միայն %{quantity_available}",
         "continue_shopping_button_label": "Շարունակեք",
         "remove": "Ջնջել",
         "quantity_update": {
@@ -3034,12 +3034,12 @@
         },
         "return_to_store_label": "Դեպի խանութ",
         "item_label": {
-          "one": "Պաշտոններ՝ {{count}}",
-          "other": "Պաշտոններ՝ {{count}}",
+          "one": "{{count}} ապրանք",
+          "other": "{{count}} ապրանք",
           "few": "Պաշտոններ՝ {{count}}",
           "many": "Պաշտոններ՝ {{count}}"
         },
-        "continue_cta_label": "Շարունակեք պատվիրել",
+        "continue_cta_label": "Շարունակել պատվերի ձևակերպումը",
         "out_of_stock": {
           "description": "Այս տարրերն այլևս հասանելի չեն և կհեռացվեն ձեր զամբյուղից:",
           "items_unavailable": "Որոշ ապրանքներ այլևս հասանելի չեն և կհեռացվեն ձեր զամբյուղից:"
@@ -3200,70 +3200,70 @@
         "rollup_accessibility_label": "Հաշվի պարամետրեր"
       },
       "payment_errors": {
-        "generic_error": "Ձեր վճարումը մշակելիս խնդիր առաջացավ: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
+        "generic_error": "Վճարումը մշակելիս խնդիր առաջացավ։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
         "rejected_transaction": "Վճարումը մերժվել է։ Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
         "credit_card_processing": "Վճարը չի կարող մշակվել տեխնիկական պատճառներով: Խնդրում ենք կրկին փորձել մի քանի րոպեից կամ օգտագործել վճարման այլ եղանակ:",
-        "order_total_changed": "Պատվերի ընդհանուր թիվը փոխվել է։ Ստուգեք և նորից փորձեք:",
-        "payment_processing": "Վճարը չի կարող մշակվել տեխնիկական պատճառներով: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
-        "paypal_zero_amount": "Դուք չեք կարող օգտագործել PayPal-ը %{amount} արժեքով պատվերների համար: Հաստատեք ձեր պատվերի մանրամասները և ավարտեք ձեր պատվերը առանց PayPal-ի:",
-        "paypal_invalid_token": "PayPal-ի միջոցով վճարումը հասանելի չէ: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
+        "order_total_changed": "Պատվերի ընդհանուր գումարը փոխվել է։ Վերանայեք և նորից փորձեք։",
+        "payment_processing": "Ձեր վճարումը չի կարող մշակվել տեխնիկական պատճառներով։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
+        "paypal_zero_amount": "PayPal-ը հնարավոր չէ օգտագործել %{amount} արժեքով պատվերների համար։ Հաստատեք, որ պատվերը ճիշտ է, և ավարտեք պատվերը առանց PayPal-ի։",
+        "paypal_invalid_token": "PayPal-ը հասանելի չէր։ Նորից փորձեք կամ օգտագործեք պատվերի ձևակերպման այլ տարբերակ։",
         "pay_later_failed": "Խնդիր առաջացավ վճարումը մշակելիս՝ օգտագործելով «Վճարիր ավելի ուշ» գործառույթը: Ընտրեք վճարման այլ եղանակ և նորից փորձեք:",
-        "three_d_secure_failed": "Մեզ չհաջողվեց հաստատել ձեր վճարումը: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
-        "three_d_secure_failed_duplicate": "3D Secure վարկային քարտի նույնականացումը ձախողվեց, քանի որ ներկայումս գործում է նույնականացման մեկ այլ գործընթաց:",
-        "three_d_secure_throttled": "Չափազանց շատ փորձեր: Սպասեք նախքան կրկնելը:",
-        "subscription_agreement_blank": "Բաժանորդագրություն գնելու համար խնդրում ենք պահպանել ձեր վճարման տվյալները: Շարունակելու համար հաստատեք ձեր ընդունումը կամ հեռացրեք բաժանորդագրության տարրերը ձեր պատվերից:",
-        "insufficient_funds": "Վճարումը մերժվել է, քանի որ հաշվում միջոցները բավարար չեն։ Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
-        "payment_processing_no_retry": "Վճարը չի կարող մշակվել տեխնիկական պատճառներով: Խնդրում ենք օգտագործել վճարման այլ եղանակ:",
+        "three_d_secure_failed": "Ձեր վճարումը չհաջողվեց հաստատել։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
+        "three_d_secure_failed_duplicate": "Քարտի 3D Secure հաստատումը չհաջողվեց, քանի որ մեկ այլ հաստատում արդեն ընթացքի մեջ է։",
+        "three_d_secure_throttled": "Չափազանց շատ փորձեր։ Սպասեք և նորից փորձեք։",
+        "subscription_agreement_blank": "Բաժանորդագրություն գնելու համար պետք է պահպանել ձեր վճարման տվյալները։ Շարունակելու համար հաստատեք համաձայնությունը կամ հեռացրեք բաժանորդագրության ապրանքները պատվերից։",
+        "insufficient_funds": "Վճարումը մերժվել է անբավարար միջոցների պատճառով։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
+        "payment_processing_no_retry": "Ձեր վճարումը չի կարող մշակվել տեխնիկական պատճառներով։ Փորձեք վճարման այլ եղանակ։",
         "checkout_amount_changed": "Վճարումը չի կարող մշակվել, քանի որ պատվերի գումարը փոխվել է: Խնդրում ենք ստուգել ձեր պատվերի մանրամասները և կրկին փորձել:",
         "deferred_payment_not_allowed": "Հետաձգված վճարումները չեն թույլատրվում: Խնդրում ենք ստուգել ձեր պատվերի մանրամասները և կրկին փորձել:",
         "deferred_payment_required": "Այս պատվերը պահանջում է հետաձգված վճարում: Խնդրում ենք ստուգել ձեր պատվերի մանրամասները և կրկին փորձել:",
         "deferred_amount_changed": "Վճարը չի կարող մշակվել, քանի որ հետաձգված վճարման գումարը փոխվել է: Խնդրում ենք ստուգել ձեր պատվերի մանրամասները և կրկին փորձել:",
         "deferred_date_changed": "Վճարումը չի կարող մշակվել, քանի որ հետաձգված վճարման ամսաթիվը փոխվել է: Խնդրում ենք ստուգել ձեր պատվերի մանրամասները և կրկին փորձել:",
         "multiple_deferred_payment_not_allowed": "Յուրաքանչյուր հարցման համար տրվում է միայն մեկ հետաձգված վճար: Խնդրում ենք ստուգել ձեր հարցումը և նորից փորձել:",
-        "shipping_must_match_billing": "Վճարման հասցեն պետք է համապատասխանի առաքման հասցեին: Խնդրում ենք օգտագործել վճարման այլ եղանակ:",
+        "shipping_must_match_billing": "Վճարային հասցեն պետք է համապատասխանի առաքման հասցեին։ Օգտագործեք վճարման այլ եղանակ։",
         "decision_rule_block": "Ձեր վճարումը մշակելիս խնդիր առաջացավ: Կապվեք խանութպանի հետ։",
-        "pick_up_card": "Քարտը մերժվել է Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
+        "pick_up_card": "Ձեր քարտը մերժվել է։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
         "cannot_verify": "Մենք չկարողացանք հաստատել ձեր վճարման տվյալները: Խնդրում ենք ստուգել ձեր մուտքագրած քարտի տվյալները և նորից փորձել:",
-        "invalid_number": "Խնդրում ենք մուտքագրել վավեր քարտի համար",
-        "invalid_expiry_date": "Խնդրում ենք մուտքագրել վավեր պիտանելիության ժամկետ:",
-        "invalid_cvc": "Խնդրում ենք մուտքագրել վավեր անվտանգության կոդը",
-        "expired_card": "Քարտի ժամկետը սպառվել է: Խնդրում ենք օգտագործել վճարման այլ եղանակ",
+        "invalid_number": "Մուտքագրեք վավեր քարտի համար",
+        "invalid_expiry_date": "Մուտքագրեք վավեր ժամկետի ավարտի ամսաթիվ",
+        "invalid_cvc": "Մուտքագրեք վավեր անվտանգության կոդ",
+        "expired_card": "Ձեր քարտի ժամկետը լրացել է։ Օգտագործեք վճարման այլ եղանակ։",
         "card_declined": "Քարտը մերժվել է Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
-        "processing_error": "Ձեր վճարումը մշակելիս խնդիր առաջացավ: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
+        "processing_error": "Վճարումը մշակելիս խնդիր առաջացավ։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
         "call_issuer": "Քարտը մերժվել է Խնդրում ենք օգտագործել վճարման այլ եղանակ կամ դիմեք ձեր բանկ:",
         "test_mode_live_card": "Այս խանութը չի կարող ընդունել իրական պատվերներ կամ իրական վճարումներ:",
-        "transient_error": "Վճարումը մշակելիս խնդիր առաջացավ: Վերբեռնեք էջը կամ ստուգեք ձեր ինտերնետային կապը:",
-        "missing_shipping_address": "Վճարումը չի կարող մշակվել, քանի որ ընտրված առաքման հասցեն նշված չէ: Մուտքագրեք ձեր առաքման հասցեն և նորից փորձեք:",
-        "invalid_shipping_address": "Վճարումը չի կարող մշակվել, քանի որ նշված առաքման հասցեն չի գտնվել: Խնդրում ենք ստուգել ձեր առաքման հասցեն և նորից փորձել:",
-        "successful_offsite_with_gift_card_error": "Խնդիր առաջացավ ձեր նվեր քարտի վճարումը մշակելիս: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
+        "transient_error": "Վճարումը մշակելիս խնդիր առաջացավ։ Փորձեք թարմացնել էջը կամ ստուգեք ինտերնետ կապը։",
+        "missing_shipping_address": "Վճարումը չի կարող մշակվել, քանի որ առաքման հասցեն բացակայում է։ Ավելացրեք առաքման հասցե և նորից փորձեք։",
+        "invalid_shipping_address": "Վճարումը չի կարող մշակվել, քանի որ առաքման հասցեն չի գտնվել։ Ստուգեք առաքման հասցեն և նորից փորձեք։",
+        "successful_offsite_with_gift_card_error": "Նվեր քարտով վճարումը մշակելիս խնդիր առաջացավ։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
         "development_store_order_limit_reached": "Այս վճարային համակարգով դուք հասել եք ձեր խանութի պատվերի սահմանաչափին զարգացման ռեժիմում: Մեկ այլ պատվեր տեղադրելու համար խնդրում ենք օգտագործել փորձնական վճարման ծառայությունը: Իմացեք ավելին %{development_store_order_testing_docs_link}-ի մասին:",
         "development_store_with_order_limit": "Փորձնական պատվեր տեղադրելու համար օգտագործեք թեստային վճարման ծառայությունը: Իմացեք ավելին %{development_store_order_testing_docs_link}-ի մասին:",
         "development_store_order_testing_docs_link": "փորձարկման պատվերներ խանութներում զարգացման ռեժիմում",
-        "method_not_available": "Ընտրված վճարման եղանակը հասանելի չէ: Ընտրեք վճարման այլ եղանակ և նորից փորձեք:",
+        "method_not_available": "Պահանջված վճարման եղանակը հասանելի չէ։ Ընտրեք վճարման այլ եղանակ և նորից փորձեք։",
         "available_methods_updated": "Վճարման հասանելի եղանակների մասին տեղեկությունները թարմացվել են:",
-        "selected_payment_method": "Ընտրված վճարման եղանակի հետ կապված խնդիր է առաջացել, և միջոցները չեն գանձվել: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
+        "selected_payment_method": "Ընտրված վճարման եղանակի հետ խնդիր առաջացավ, և գումար չի գանձվել։ Նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ։",
         "payment_method_billing_address": "Ընտրված վճարման եղանակի համար վճարման հասցեի հետ խնդիր կա: Ստուգեք ձեր հասցեն և նորից փորձեք կամ օգտագործեք վճարման այլ եղանակ:",
-        "processing_error_checkout_as_guest": "Ձեր վճարումը մշակելիս խնդիր առաջացավ: Խնդրում ենք կրկին փորձել, օգտագործել վճարման այլ եղանակ կամ {{checkout_as_guest_link}}:",
+        "processing_error_checkout_as_guest": "Վճարումը մշակելիս խնդիր առաջացավ։ Նորից փորձեք վճարման այլ եղանակով կամ {{checkout_as_guest_link}}։",
         "amount_too_small": "Վճարման նվազագույն գումարը պետք է լինի $0,50-ից ավելի: Խնդրում ենք կրկին փորձել ավելի մեծ գումարով:",
         "payment_above_threshold": "Վճարման գումարը գերազանցում է այս տարածաշրջանի դրամական սահմանաչափը: Կրճատեք ընդհանուր գումարը և նորից փորձեք",
         "risky": "Ձեր վճարումը մշակելիս խնդիր առաջացավ: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
         "expired_buyer_action": "Ընտրված վճարման եղանակն օգտագործելու հատկացված ժամանակը սպառվել է: Խնդրում ենք կրկին փորձել:",
-        "three_d_secure_failed_payment_method": "Չհաջողվեց հաստատել ձեր քարտը: Նորից փորձեք կամ ավելացրեք մեկ այլ քարտ:",
-        "name_mismatch": "Ստուգեք ձեր քարտի տվյալները: Քարտի անունը և հաշվարկային հասցեն չեն համընկնում:",
-        "payment_method_not_applicable": "Այս վճարման եղանակը չի կարող օգտագործվել: Խնդրում ենք օգտագործել վճարման այլ եղանակ:",
-        "shop_pay_wallet_not_available": "Խանութի վճարումը հասանելի չէ վճարման ժամանակ:",
+        "three_d_secure_failed_payment_method": "Ձեր քարտը չհաջողվեց հաստատել։ Նորից փորձեք կամ ավելացրեք այլ քարտ։",
+        "name_mismatch": "Ստուգեք քարտի տվյալները։ Քարտի վրա նշված անունը և վճարային հասցեն չեն համընկնում։",
+        "payment_method_not_applicable": "Այս վճարման եղանակը կիրառելի չէ։ Օգտագործեք վճարման այլ եղանակ։",
+        "shop_pay_wallet_not_available": "Shop Pay-ը հասանելի չէ այս պատվերի ձևակերպման համար։",
         "market_manager_blocks_wallet_payments": "Վճարման եղանակը չի աջակցվում ձեր երկրում:",
-        "paypal_over_capture": "Ձեր պատվերի ընդհանուր թիվը թարմացվել է: Վճարեք {{walletName}}-ով ձեր պատվերն ավարտելու համար:",
+        "paypal_over_capture": "Պատվերի ընդհանուր գումարը թարմացվել է։ Պատվերը ավարտելու համար վճարեք {{walletName}}-ով։",
         "test_mode_enabled_only_test_cards": "Փորձարկման ռեժիմը միացված է, միայն թեստային վարկային քարտեր կարող են ավելացվել:",
         "captcha_required": "Մուտքագրեք ձեր վճարման տվյալները և լրացրեք CAPTCHA-ն՝ ձեր գնումն ավարտելու համար:",
         "captcha_required_without_payment_information": "Խնդրում ենք լրացնել CAPTCHA՝ գնումն ավարտելու համար:",
-        "shipping_company_required_error": "{{shopName}}-ը խնդրում է ընկերության անվանումը առաքման հասցեի համար:",
+        "shipping_company_required_error": "{{shopName}}-ը պահանջում է ընկերության անվանում առաքման հասցեի համար։",
         "payment_credential_delegation_error": "Ձեր վճարումը մշակելիս խնդիր առաջացավ: Ընտրեք վճարման նոր եղանակ:",
         "cancelled_payment": "Ձեր վճարումը չեղարկվել է: Խնդրում ենք կրկին փորձել կամ օգտագործել վճարման այլ եղանակ:",
         "currency": {
           "no_longer_supported": "Խանութի արժույթն այլևս չի աջակցվում:"
         },
-        "installments_payment_method_incompatible": "Ընտրված վճարման եղանակը չի կարող օգտագործվել պարբերական վճարումների հետ: Խնդրում ենք ընտրել վճարման այլ եղանակ:",
+        "installments_payment_method_incompatible": "Ընտրված վճարման եղանակը չի կարող օգտագործվել ապառիկ վճարումների համար։ Ընտրեք վճարման այլ եղանակ։",
         "missing_cvc": "Մուտքագրեք անվտանգության կոդը"
       },
       "remote": {
@@ -3271,24 +3271,24 @@
           "currency_mismatch": "Այս ապրանքը չի կարող ավելացվել ձեր զամբյուղին, քանի որ խանութն օգտագործում է այլ արժույթ:",
           "max_remote_shops_exceeded": "Այս ապրանքը չի կարող ավելացվել, քանի որ ձեր զամբյուղն արդեն պարունակում է այլ խանութների ապրանքների առավելագույն քանակը:",
           "currency_mismatch_removal": "Ապրանքը հեռացվել է ձեր զամբյուղից, քանի որ այն այլ արժույթ օգտագործող խանութից էր:",
-          "only_remote_merchandise_lines": "Տեղադրվող պատվերի մեջ ներառված են միայն հեռավոր վայրից գտնվող իրեր: Պատվերն ավարտելու համար դուք պետք է վերահասցեագրվեք դեպի հեռավոր խանութ:"
+          "only_remote_merchandise_lines": "Պատվերի ձևակերպումը պարունակում է միայն այլ խանութի ապրանքներ։ Պատվերը ավարտելու համար անհրաժեշտ է վերահղում դեպի այդ խանութ։"
         }
       },
       "remote_merchandise_only": {
         "title": "Ավարտեք ձեր գնումը",
-        "remote_only_notice": "Այս ապրանքները վաճառվում և առաքվում են այլ խանութներում: Ձեր գնումն ավարտելու համար այցելեք յուրաքանչյուր խանութ:",
+        "remote_only_notice": "Այս ապրանքները վաճառվում և առաքվում են այլ խանութների կողմից։ Գնումն ավարտելու համար ձևակերպեք պատվերը յուրաքանչյուր խանութում։",
         "return_to_store_label": "Վերադարձ դեպի խանութ",
-        "checkout_on_shop_label": "Պատվիրե՛ք %{shop_name} խանութ-սրահում",
-        "single_shop_transition": "Վերահղեք %{advertiser}՝ գնումն ավարտելու համար:",
+        "checkout_on_shop_label": "Ձևակերպել պատվերը %{shop_name}-ում",
+        "single_shop_transition": "Վերահղում ենք ձեզ դեպի %{advertiser}՝ գնումն ավարտելու համար։",
         "detail_item_label": {
-          "one": "{{count}} տարր",
-          "other": "Ապրանքներ՝ {{count}}",
+          "one": "{{count}} ապրանք",
+          "other": "{{count}} ապրանք",
           "few": "Ապրանքներ՝ {{count}}",
           "many": "Ապրանքներ՝ {{count}}"
         }
       },
       "remote_policies": {
-        "unavailable_policy": "Այս խանութի համար նախատեսված չէ %{policy_name}: Լրացուցիչ տեղեկությունների համար ուղղակիորեն կապվեք %{shop_name}-ի հետ:"
+        "unavailable_policy": "Այս խանութի համար %{policy_name} չի տրամադրվել։ Լրացուցիչ տեղեկությունների համար կապվեք անմիջապես %{shop_name}-ի հետ։"
       },
       "offsite_payment_failed": {
         "payment_not_processed_title": "Վճարման սխալ",
