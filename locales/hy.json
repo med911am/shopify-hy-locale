@@ -3371,164 +3371,6 @@
         "most_relevant": "Ամենաարդիականը"
       }
     },
-    "errors": {
-      "blank": "չի կարող դատարկ լինել",
-      "credit_card_session_expired": "Կրեդիտ քարտի թույլտվության ժամկետը սպառվել է: Խնդրում ենք նորից մուտքագրել վճարային տվյալները։ Քարտը չի փոփոխվել:",
-      "empty": "չի կարող դատարկ լինել",
-      "invalid_email": "նշեք վավեր էլփոստի հասցե",
-      "discount_disabled": "Այս պրոմո կոդն անջատված է",
-      "discount_expired": "Այս պրոմո կոդն այլևս գործող չէ",
-      "discount_limit_reached": "Պրոմոկոդի օգտագործման սահմանաչափը սպառվել է",
-      "discount_not_found": "Նշված պրոմո կոդով զեղչ չի հայտնաբերվել",
-      "customer_already_used_once_per_customer_discount_notice": "Պրոմոկոդի օգտագործման սահմանաչափը սպառված է",
-      "gift_card_already_applied": "Կոդն արդեն կիրառվել է Ձեր պատվերի նկատմամբ։",
-      "gift_card_code_invalid": "Սխալ կոդ",
-      "gift_card_currency_mismatch": "Այս նվեր քարտը հնարավոր չէ օգտագործել այս գնման համար: Խնդրում ենք կապ հաստատել %{shop_name} խանութի հետ՝ այն վերաթողարկելու համար:",
-      "gift_card_depleted": "Այս նվեր քարտի վրա միջոցներ չեն մնացել",
-      "gift_card_disabled": "Նվեր քարտը անջատված է",
-      "gift_card_expired": "Նվեր քարտի ժամկետը սպառվել է",
-      "invalid": "չգործող",
-      "bad_domain": "պարունակում է անվավեր տիրույթի անուն",
-      "taken": "արդեն օգտագործվում է",
-      "contains_html_tags": "չպետք է պարունակի HTML թեգեր",
-      "too_short": "չափազանց կարճ է (պետք է լինի առնվազն %{count} նիշ)",
-      "too_long": "չափազանց երկար է (պետք է պարունակի ոչ ավելի, քան %{count} նիշ)",
-      "password_mismatch": "պետք է համընկնի նշված գաղտնաբառի հետ:",
-      "contains_spaces": "սկսվում է կամ վերջանում բացատով",
-      "invalid_for_country": "անվավեր է %{country} երկրում",
-      "invalid_for_country_and_province": "անվավեր է %{province} նահանգում և %{country} երկրում",
-      "invalid_province_in_country": "վավերական չէ %{country} երկրի գավառը",
-      "invalid_state_in_country": "%{country} երկրի անվավեր նահանգ",
-      "invalid_region_in_country": "\"%{country}\" երկրի տարածաշրջանն անվավեր է",
-      "less_than_or_equal_to": "պետք է լինի %{count}-ի կամ ավելի մեծ",
-      "not_supported": "չի աջակցվում",
-      "full_name_required": "Մուտքագրեք անունը և ազգանունը",
-      "invalid_for_card_type": "անվավեր",
-      "invalid_type": "մենք չենք ընդունում նման քարտեր",
-      "invalid_format": "սխալ ձևաչափ",
-      "expired": "ժամկետը լրացել է",
-      "invalid_start_date_or_issue_number_for_debit": "անհրաժեշտ է նշել ուժի մեջ մտնելու կամ սերիական համարի իրական ամսաթիվը",
-      "invalid_expiry_year": "Ժամկետանցման տարեթիվն անվավեր է",
-      "reset_password_html": "<p>Այս էլ. փոստի հասցեն արդեն կապված է առկա հաշվի հետ։ Եթե սա ձեր հաշիվն է, կարող եք <a href=\"/account/login#recover\">վերականգնել գաղտնաբառը</a></p>",
-      "verify_email": "Մենք էլ․ նամակ ենք ուղարկել %{customer_email} հասցեին։ Անցեք հղումով՝ էլ․ փոստի հասցեն հաստատելու համար։",
-      "blocked_address": "Դուք չեք կարող գնումներ կատարել և առաքում պատվիրել այս տարածաշրջանում:",
-      "product_not_available": "Ապրանքը հասանելի չէ այս գնորդի համար։",
-      "shop_404": {
-        "title": "Ստեղծեք էլեկտրոնային առևտրի կայք և վաճառեք առցանց: Էլեկտրոնային առևտրի ծրագրային ապահովում Shopify-ից",
-        "heros": {
-          "store_unavailable": "Ցավոք, այս խանութը ներկայումս հասանելի չէ։",
-          "store_not_exist": "Նման խանութ գոյություն չունի։",
-          "no_storefront": "Այս խանութը դեռևս կայք չունի։"
-        },
-        "links": {
-          "explore_other_stores": "Գտնել այլ խանութ",
-          "start_free_trial": "Սկսել փորձնական շրջանը"
-        },
-        "owner_ctas": {
-          "header": "Դուք խանութի սեփականա՞տեր եք։",
-          "fix_domain": "Նոր վեբ հասցեի կարգավորումն ավարտելուց հետո անցեք %{domain_settings_link}-ին։ Սեղմեք «Միացնել տիրույթը» և մուտքագրեք՝ %{domain}:<br>Եթե չեք կարողանում մուտք գործել խանութ, բացեք «%{forgot_your_store_link}» էջը։",
-          "fix_domain_link_text": "ձեր դոմենի կարգավորումներին",
-          "forgot_your_store_link_text": "մոռացել են խանութը",
-          "add_storefront": "Կարող եք կարգավորել ձեր կայքը՝ ավելացնելով առցանց խանութի ալիքը %{admin_link} էջում։ Եթե չեք կարողանում մուտք գործել խանութ, անցեք «%{forgot_your_store_link}» էջ։",
-          "admin_link_text": "տնօրենին"
-        },
-        "ctas": {
-          "sell_in_person": {
-            "header": "Անձամբ վաճառեք",
-            "caption": "Մանրածախ առևտուր սկսելու կամ բիզնեսն ընդլայնելու համար անհրաժեշտ բոլոր գործառույթները։",
-            "link_text": "Սկսել փորձնական շրջանը"
-          },
-          "open_a_store": {
-            "header": "Բացեք նոր խանութ Shopify-ում",
-            "caption": "Սկսեք եռօրյա փորձնական ժամկետից, ապա՝ 1$/ամիս հաջորդ 3 ամիսների համար։",
-            "link_text": "Գրանցվել"
-          },
-          "editions": {
-            "header": "Փորձեք Shopify Editions-ը",
-            "caption": "Ավելի քան 100 ապրանքային նորամուծություններ կօգնեն ձեզ հաջողության հասնել ձեր գործում և իրականացնել ստեղծագործական պլաններ։",
-            "link_text": "Ծանոթանալ հրատարակություններին"
-          },
-          "store_owner": {
-            "header": "Դուք խանութի սեփականա՞տեր եք։",
-            "caption": "Չե՞ք կարողանում մուտք գործել խանութ: Օգտվեք %{forgot_your_store_link} հնարավորությունից: Եթե ցանկանում եք վերաակտիվացնել խանութը, դիմեք %{shopify_support_link}-ին:",
-            "shopify_support_link_text": "Shopify-ի աջակցման թիմի կողմից"
-          }
-        }
-      }
-    },
-    "notices": {
-      "customer": {
-        "password_reset_error": "Գաղտնաբառի զրոյացման սխալ",
-        "no_account_found": "Նման էլեկտրոնային փոստի հասցեով հաշիվ չի հայտնաբերվել։",
-        "invalid_credentials": "Սխալ էլեկտրոնային հասցե կամ գաղտնաբառ։",
-        "denylisted_reset_password": "Հնարավոր չէ բացել հաշիվը, քանի որ ընթացիկ գաղտնաբառն անվտանգ չէ: Դուք կստանաք էլ. նամակ գաղտնաբառը թարմացնելու համար:",
-        "signup_disabled": "Հաճախորդի հաշիվների ստեղծումն անջատված է։",
-        "subscribe_error": "Բաժանորդագրության սխալ",
-        "unsubscribe_error": "Բաժանորդագրությունը չեղարկելու սխալ"
-      },
-      "address": {
-        "updated": "Հասցեն փոփոխված է։",
-        "error_updating": "Հասցեի փոփոխման սխալ։",
-        "created": "Հասցեն ստեղծված է։",
-        "error_creating": "Հասցեի ավելացման սխալ:",
-        "deleted": "Հասցեն հեռացված է։",
-        "error_deleting": "Հասցեն ջնջելու սխալ:"
-      },
-      "order": {
-        "not_available": "Պատվերը հասանելի չէ։",
-        "financial_status": {
-          "authorized": "Մուտք գործված է",
-          "pending": "Սպասում է հաստատման",
-          "paid": "Վճարված է",
-          "unpaid": "Չվճարված է",
-          "voided": "Չեղարկված է",
-          "partially_paid": "Մասնակի վճարված է",
-          "partially_refunded": "Միջոցները մասամբ վերադարձվել են։",
-          "refunded": "Միջոցները վերադարձված են",
-          "expired": "Ժամկետն ավարտվել է"
-        },
-        "fulfillment_status": {
-          "fulfilled": "Կատարված է",
-          "complete": "Ավարտված է",
-          "partial": "Մասնակիորեն կատարված է",
-          "unfulfilled": "Չի կատարվել",
-          "restocked": "Գույքը համալրված է"
-        },
-        "transaction_status": {
-          "success": "Պատրաստ է",
-          "pending": "Սպասում է հաստատման",
-          "failure": "Սխալ է տեղի ունեցել։",
-          "error": "Սխալ"
-        },
-        "cancel_reason": {
-          "declined": "Վճարումը մերժված է։",
-          "inventory": "Ապրանքները հասանելի չեն",
-          "fraud": "Խարդախության պատվեր",
-          "customer": "Հաճախորդը փոխել կամ չեղարկել է պատվերը",
-          "other": "Այլ",
-          "few": "Այլ",
-          "many": "Այլ",
-          "staff": "Անձնակազմի սխալ"
-        },
-        "cash_on_delivery": "Կանխիկ՝ առաքման ժամանակ"
-      },
-      "cart": {
-        "only_n_items_available": "Զամբյուղում %{name} ապրանքների թույլատրելի առավելագույն քանակը՝ %{count}:",
-        "too_many_items_in_cart": "Դուք չեք կարող ավելացնել այս ապրանքից ավելին զամբյուղում՝ %{name}:",
-        "all_items_in_cart": "Ձեր զամբյուղում. %{name} (%{count})։",
-        "empty_update": "անհնար է թարմացնել դատարկ զամբյուղը",
-        "missing_parameters": "նշված չէ վավեր ID կամ տողի պարամետր",
-        "generic_error": "Զամբյուղի սխալ",
-        "too_many_line_items_error": "Զամբյուղում ապրանքների առավելագույն քանակը՝ %{max}:",
-        "link_expired": "Հղման ժամկետը լրացել է",
-        "link_no_longer_exists": "Հղումը գոյություն չունի։",
-        "stock_problems_html": "Մեկ կամ մի քանի ապրանք այլևս հասանելի չէ։ <a href=\"%{link}\">Զամբյուղը թարմացվել է</a>։",
-        "changed": "Զամբյուղի պարունակությունը փոփոխված է",
-        "items_changed": "Մեկ կամ մի քանի ապրանք փոփոխվել է:",
-        "product_sold_out": "«%{name}» ապրանքը վաճառված է։",
-        "variant_not_found": "Տարբերակներ չեն գտնվել"
-      }
-    },
     "page_titles": {
       "shopping_cart": "Ձեր զամբյուղը"
     }
@@ -3649,52 +3491,6 @@
     "cart_title": "Զամբյուղ",
     "cart_total": "Զամբյուղի ընդհանուր գումարը"
   },
-  "gift_cards": {
-    "issued": {
-      "how_to_use_gift_card": "Օգտագործեք նվեր քարտի կոդն առցանց կամ սքանավորեք QR կոդը խանութում",
-      "title": "Ահա ձեր նվեր քարտը՝ {{ value }} անվանական արժեքով՝ նախատեսված {{ shop }} խանութի համար:",
-      "subtext": "Ձեր նվեր քարտը",
-      "shop_link": "Այցելել առցանց խանութ",
-      "add_to_apple_wallet": "Ավելացնել Apple Wallet-ում",
-      "qr_image_alt": "Սքանավորեք QR կոդը՝ նվեր քարտից օգտվելու համար",
-      "copy_code": "Պատճենել նվեր քարտի կոդը",
-      "expiration_date": "Ժամկետը լրանում է {{ expires_on }}",
-      "copy_code_success": "Կոդը պատճենված է",
-      "expired": "Ժամկետն ավարտվել է"
-    }
-  },
-  "blogs": {
-    "article": {
-      "comments_heading": {
-        "one": "Մեկնաբանություններ՝ {{ count }}",
-        "other": "Մեկնաբանություններ՝ {{ count }}",
-        "few": "Մեկնաբանություններ՝ {{ count }}",
-        "many": "Մեկնաբանություններ՝ {{ count }}"
-      }
-    },
-    "comment_form": {
-      "email": "Էլեկտրոնային հասցե",
-      "error": "Մեկնաբանությունը չհաջողվեց հրապարակել, ուղղեք հետևյալը.",
-      "heading": "Մեկնաբանել",
-      "message": "Հաղորդագրություն",
-      "moderated": "Ուշադրություն դարձրեք, որ մեկնաբանությունները հրապարակումից առաջ ստուգվում են։",
-      "name": "Անուն",
-      "post": "Ավելացնել մեկնաբանություն",
-      "success_moderated": "Մեկնաբանությունը ուղարկվել է չափավորման",
-      "success": "Մեկնաբանությունը հրապարակված է։"
-    }
-  },
-  "placeholders": {
-    "password": "Գաղտնաբառ",
-    "search": "Որոնում",
-    "product_title": "Ապրանքի անվանումը",
-    "collection_title": "Հավաքածուի անվանումը",
-    "blog_posts": "Բլոգի գրառումներ",
-    "blog_post_title": "Անվանում",
-    "blog_post_author": "Հեղինակ",
-    "blog_post_date": "Ամսաթիվ",
-    "blog_post_description": "Ձեր բլոգի գրառման հատվածը"
-  },
   "products": {
     "product": {
       "add_to_cart": "Ավելացնել զամբյուղ",
@@ -3714,97 +3510,6 @@
     }
   },
   "customer_accounts": {
-    "ui_components": {
-      "sunday": "կիրակի",
-      "mondayAbbreviation": "երկ",
-      "tuesdayAbbreviation": "երեքշաբթի",
-      "wednesdayAbbreviation": "չորեքշաբթի",
-      "thursdayAbbreviation": "ինչո՞վ է տարբերվում",
-      "fridayAbbreviation": "ՀՆ",
-      "saturdayAbbreviation": "շբ",
-      "sundayAbbreviation": "ամբողջ",
-      "showNextMonth": "Ցուցադրել հաջորդ ամիսը, {{month}} {{year}}",
-      "showPreviousMonth": "Ցույց տալ նախորդ ամիսը, {{month}} {{year}}",
-      "rangeStart": "Ժամանակահատվածի սկիզբ",
-      "inRange": "Միջակայքում",
-      "rangeEnd": "Ժամանակային միջակայքի ավարտ",
-      "autocompleteOptionsAvailable": {
-        "one": "Մատչելի է՝ {{count}} հատ",
-        "other": "Մատչելի է՝ {{count}} միավոր։",
-        "few": "Առկա է՝ {{count}} հատ",
-        "many": "Առկա է՝ {{count}} հատ"
-      },
-      "removeItem": "Ջնջել «{{label}}»",
-      "removeTag": "Հեռացնել պիտակը",
-      "month": {
-        "one": "ամիս",
-        "other": "ամիս",
-        "few": "ամիս",
-        "many": "ամիս"
-      },
-      "mapClusterTitle": {
-        "one": "Մարկերներ կլաստերում՝ {{number}}",
-        "other": "Մարկերներ կլաստերում՝ {{number}}",
-        "few": "Կլաստերում նշիչների քանակը՝ {{number}}",
-        "many": "Մարկերներ կլաստերում՝ {{number}}"
-      },
-      "expandSheet": "Ծավալել",
-      "qrCode": "QR կոդ",
-      "addFile": "Ավելացնել ֆայլ",
-      "dropzoneInvalidFileType": "Ֆայլի տեսակն ապահովված չէ",
-      "dropzoneDraggedOver": "Քաշեք ֆայլը վերբեռնելու համար",
-      "clipboardCopied": "Պատճենված է",
-      "clipboardFailedToCopy": "Չհաջողվեց պատճենել",
-      "clear": "Մաքրել",
-      "closeNotification": "Փակել",
-      "expandNotification": "Եվս",
-      "closeModal": "Փակել",
-      "submit": "Ուղարկել",
-      "processing": "Մշակվում է…",
-      "increase": "Ավելացնել {{type}}",
-      "decrease": "Հեռացնել {{type}}",
-      "minimumReached": "Նվազագույն արժեքը ձեռք է բերվել՝ {{value}}",
-      "maximumReached": "Առավելագույն արժեքը հասել է՝ {{value}}",
-      "january": "Հունվար",
-      "february": "Փետրվար",
-      "march": "Մարտ",
-      "april": "Ապրիլ",
-      "may": "Մայիս",
-      "june": "Հունիս",
-      "july": "Հուլիս",
-      "august": "Օգոստոս",
-      "september": "Սեպտեմբեր",
-      "october": "Հոկտեմբեր",
-      "november": "Նոյեմբեր",
-      "december": "Դեկտեմբեր",
-      "monday": "երկուշաբթի",
-      "tuesday": "երեքշաբթի",
-      "wednesday": "չորեքշաբթի",
-      "thursday": "հինգշաբթի",
-      "friday": "ուրբաթ",
-      "saturday": "շաբաթ"
-    },
-    "profile_preview_bar": {
-      "customize_button": "Կարգավորել",
-      "hide_bar": "Թաքցնել վահանակը",
-      "navigate_to_admin": "Անցնել ադմինիստրատորի վահանակին",
-      "previewing": "Դուք դիտում եք.",
-      "saved_at": "Պահպանվել է {{date}} {{time}}-ին",
-      "viewing": "Դուք դիտում եք՝",
-      "not_available": "Անձնական տվյալները հասանելի չեն",
-      "close_preview": "Փակել նախադիտումը",
-      "actions_button": "Գործողություններ"
-    },
-    "settings": {
-      "loading_accessibility_message": "«Կարգավորումներ» էջի բեռնում…",
-      "title": "Կարգավորումներ",
-      "log_out_everywhere": {
-        "title": "Ելք ամենուր",
-        "description": "Եթե կորցրել եք Ձեր սարքը կամ մտահոգված եք հաշվի անվտանգությամբ, ապա դուրս եկեք համակարգից բոլոր պլատֆորմներում՝ Ձեր հաշիվը պաշտպանելու համար։",
-        "button": "Դուրս գալ բոլոր սարքերից",
-        "warning_message": "Դուք նաև դուրս կգաք համակարգից այս սարքից։"
-      }
-    },
     "date": {
       "humanize": {
         "lessThanOneMinuteAgo": "Հենց հիմա",
@@ -3819,18 +3524,6 @@
         }
       }
     },
-    "active_inspector": {
-      "extension": {
-        "select": "Ընտրել {{extensionName}} ընդլայնումը",
-        "unselect": "Չեղարկել {{extensionName}} ընդլայնման ընտրությունը",
-        "move_down": "Ընդլայնումը տեղափոխել հաջորդ դիրք",
-        "move_up": "Ընդլայնումը տեղափոխել նախորդ դիրք",
-        "remove": "Ջնջել ընդլայնումը",
-        "move_down_tooltip": "Տեղափոխել հաջորդ դիրք",
-        "move_up_tooltip": "Տեղափոխել նախորդ դիրք",
-        "remove_tooltip": "Հեռացնել"
-      }
-    },
     "editor": {
       "link_new_tab_confirmation": "Հղումը հնարավոր չէ բացել խմբագրիչում։ Հղումը կբացվի նոր պատուհանում ({{resolved_to_link}})։ Շարունակելու համար սեղմեք «OK»։"
     },
@@ -3839,13 +3532,6 @@
         "message": "Չափազանց շատ փորձեր",
         "description": "Մի քանի րոպեից կրկին փորձեք։"
       }
-    },
-    "shop_ads": {
-      "title": "Այլ ապրանքներ, որոնք կարող են ձեզ դուր գալ",
-      "subtitle": "Հասանելի է սահմանափակ ժամանակով",
-      "button": "Դիտել խանութում",
-      "previous_button": "Հետ",
-      "next_button": "Հաջորդը"
     },
     "knowledge_base": {
       "self_serve_returns": {
@@ -3860,19 +3546,6 @@
       "expand_label": "Ծավալել հայտարարությունների վահանակը",
       "collapse_label": "Ծալել գովազդների վահանակը",
       "close_label": "Փակել գովազդների վահանակը"
-    },
-    "subscriptions": {
-      "update_payment_instrument": {
-        "title": "Փոխել վճարման եղանակը",
-        "loading": "Կատարվում է վճարման եղանակների բեռնում",
-        "no_payment_methods_available": "Վճարման հասանելի եղանակներ չկան",
-        "select_new_payment_method": "Ընտրեք վճարման նոր եղանակ",
-        "current_method": "Ընթացիկ",
-        "cancel": "Չեղարկել",
-        "save": "Պահպանել",
-        "success": "Վճարման եղանակները փոփոխվել են",
-        "use_new_payment_method": "+ Օգտագործել վճարման նոր եղանակ"
-      }
     },
     "account_menu": {
       "signed_out_state": {
@@ -4019,61 +3692,6 @@
       "policy_try_again": "Կրկին փորձեք։",
       "loading_section_accessibility_label": "Բաժնի բեռնում {{sectionName}}"
     },
-    "account_information": {
-      "loading_accessibility_message": "Հաշվի տվյալների բեռնում",
-      "loading_finished_accessibility_message": "Հաշվի տվյալները բեռնված են",
-      "profile_card": {
-        "cancel": "Չեղարկել",
-        "cancel_accessibility_label": "Չեղարկել պրոֆիլի խմբագրումը",
-        "edit": "Խմբագրել",
-        "edit_accessibility_label": "Խմբագրել պրոֆիլը",
-        "email_help_text": "Էլեկտրոնային փոստը չի կարող խմբագրվել",
-        "first_name": "Անուն",
-        "last_name": "Ազգանուն",
-        "phone_number_help_text": "Հեռախոսահամարը հնարավոր չէ փոխել",
-        "save": "Պահպանել",
-        "save_accessibility_label": "Պահպանել պրոֆիլը",
-        "title": "Պրոֆիլ",
-        "no_name_provided_accessibility_label": "Ավելացված անուններ չկան",
-        "email": "Էլեկտրոնային փոստի հասցե",
-        "errors": {
-          "name_too_long": "Դաշտը՝ {{fieldName}}, չափազանց երկար է (առավելագույնը 255 նիշ)",
-          "name_cannot_contain_url": "{{fieldName}}-ը չի կարող պարունակել URL հասցե",
-          "name_cannot_contain_html_tags": "«{{fieldName}}» դաշտը չի կարող պարունակել HTML թեգեր:",
-          "email_cant_be_blank": "Էլ. փոստի հասցեն չի կարող դատարկ լինել",
-          "invalid_email_format": "Մուտքագրեք վավեր էլ. փոստի հասցե"
-        },
-        "editable_email_help_text": "Այս էլ. փոստի հասցեն օգտագործվում է մուտքի և պատվերների թարմացման համար։"
-      },
-      "profile_update_confirmation_message": "Պրոֆիլը թարմացված է",
-      "title": "Պրոֆիլ",
-      "people": {
-        "pagination": {
-          "load_more": "Ավելին բեռնել",
-          "load_more_accessibility_label": "Ավելի շատ օգտվողներ բեռնել",
-          "loading_accessibility_label": "Օգտատերերի բեռնում"
-        }
-      },
-      "add_button": "Ավելացնել",
-      "verify_new_email_modal": {
-        "title": "Հաստատեք էլփոստի հասցեն",
-        "description": "Մուտքագրեք այն կոդը, որն ուղարկվել է {{email}} հասցեին",
-        "one_time_password_label": "6-նիշանոց կոդ",
-        "email_resend_button": "Կրկին ուղարկել կոդը",
-        "email_resend_button_accessibility_label": "Կրկին ուղարկել հաստատման կոդը",
-        "verify_button": "Հաստատել",
-        "verify_button_accessibility_label": "Հաստատել միանվագ գաղտնաբառը",
-        "cancel_button": "Չեղարկել",
-        "cancel_button_accessibility_label": "Չեղարկել էլ. փոստի խմբագրումը",
-        "email_resend_button_success_toast_message": "Հաստատման կոդն ուղարկված է։",
-        "email_resend_button_failure_banner_message": "Հաստատման կոդն ուղարկել չհաջողվեց"
-      },
-      "email_update_success_modal": {
-        "title": "Հաստատեք էլփոստի հասցեն",
-        "description": "Էլփոստի հասցեն հաջողությամբ հաստատվել է։ Կատարվում է վերաուղղորդում դեպի մուտքի էջ։"
-      },
-      "email_update_confirmation_message": "Էլփոստի հասցեն փոխվել է՝ {{email}}"
-    },
     "errors": {
       "address_deletion_error": {
         "description": "Հասցեն հեռացնելիս խնդիր առաջացավ։ Փորձեք նորից կամ թարմացրեք էջը։"
@@ -4142,22 +3760,6 @@
       "failed_to_revert": "Հաճախորդի հաշվի կարգավորումները չհաջողվեց վերականգնել:",
       "revert_window_expired": "Փոփոխությունները չեղարկելու ժամկետն ավարտվել է։"
     },
-    "intents": {
-      "subscription_replace_payment_method": {
-        "card_number": "Քարտի համարը",
-        "title": "Փոխել վճարման եղանակը",
-        "replace_with": "Նոր եղանակ՝",
-        "add_new_payment_method": "Ավելացնել նորը",
-        "save_button": "Պահպանել",
-        "close_button": "Փակել",
-        "loading": "Վճարման եղանակը փոխելու մոդալ պատուհանի բեռնում",
-        "success": "Վճարման եղանակը փոխված է",
-        "invalid_subscription_contract": "Բաժանորդագրությունը չհաջողվեց գտնել",
-        "expiry_date": "Գործում է մինչև {{expiryDate}}",
-        "edit_current_payment_method": "Փոխել վճարման ընթացիկ եղանակը",
-        "edit_selected_payment_method": "Փոխել ընտրված վճարման եղանակը"
-      }
-    },
     "sign_in": {
       "brand_logo_alt_text": "%{shop_name} խանութի լոգոն",
       "step_one": {
@@ -4186,49 +3788,554 @@
       },
       "processing": "Մշակվում է…"
     },
-    "payment_method_brands": {
-      "visa": "Վիզա",
-      "americanexpress": "Ամերիքան Էքսպրես",
-      "discover": "Բացահայտեք",
-      "elo": "Էլո",
-      "maestro": "Մաեստրո",
-      "forbrugsforeningen": "Սպառողների ասոցիացիա",
-      "dankort": "Դանկորտ",
-      "hipercard": "Հիպերքարտ",
-      "unionpay": "ՅունիՓեյ",
-      "laser": "Լազեր",
-      "storecredit": "Առևտրային վարկ",
-      "bogus": "Կեղծ"
-    },
     "enable_javascript": "Հաշվի տվյալները դիտելու համար ակտիվացրեք JavaScript-ը զննարկիչի կարգավորումներում կամ օգտագործեք այլ զննարկիչ մուտք գործելու համար:",
-    "payment_methods": {
-      "update_success": {
-        "done_button": "Շարունակել գնումները"
+    "orders": {
+      "list_layout_accessibility_label": "Նշագրման պարամետրեր",
+      "list_title": "Պատվերներ",
+      "order_list": {
+        "column_headers": {
+          "total": "Ընդհանուր գումարը",
+          "order": "Պատվեր",
+          "actions_accessibility_label": "Գործողություններ",
+          "products_accessibility_label": "Ապրանքներ"
+        },
+        "delivered": "Առաքված է {{date}}",
+        "empty_state_order_source_description": "Այստեղ ցուցադրված են միայն {{email}} օգտվողի կողմից տեղադրված պատվերները։",
+        "empty_state_subtitle": "Գնացեք խանութ՝ պատվեր տեղադրելու համար։",
+        "empty_state_title": "Դեռևս պատվերներ չկան",
+        "estimated_delivery": "Առաքման սպասվող ամսաթիվը՝ {{date}}",
+        "items": {
+          "one": "{{count}} դիրք",
+          "other": "Դիրքեր՝ {{count}}",
+          "few": "Դիրքեր՝ {{count}}",
+          "many": "Դիրքեր՝ {{count}}"
+        },
+        "order_link": "Դիտել պատվերը {{name}}",
+        "order_number": "Պատվեր՝ {{name}}",
+        "orders_title": "Հաստատված է",
+        "pagination": {
+          "nav_accessibility_label": "Պատվերների նավիգացիոն կոճակներ",
+          "next": "Այնուհետև",
+          "next_accessibility_label": "Հետևյալ պատվերները",
+          "previous": "Ետ",
+          "previous_accessibility_label": "Նախորդ պատվերներ",
+          "load_more": "Բեռնել ավելին",
+          "load_more_accessibility_label": "Բեռնել ավելի շատ պատվերներ"
+        },
+        "sort_by": "Տեսակավորում՝ {{option}}",
+        "sort_hide_options_accessibility_label": "Թաքցնել տեսակավորման պարամետրերը հաստատված պատվերների համար:",
+        "sort_show_options_accessibility_label": "Հաստատված պատվերների տեսակավորման պարամետրերի ցուցադրում։",
+        "sort_title": "Դասավորում",
+        "sort": {
+          "date": {
+            "newest": "Նորերից հներին",
+            "oldest": "Հինգից նորերին"
+          },
+          "location": {
+            "ascending": "Դասավորություն (A-Z)",
+            "descending": "Դասավորություն (Z-A)"
+          },
+          "order_number": {
+            "ascending": "Պատվերի համար (աճման կարգով)",
+            "descending": "Պատվերի համարը (նվազող)"
+          },
+          "order_total": {
+            "ascending": "Պատվերի ընդհանուր գումարը (աճման կարգով)",
+            "descending": "Պատվերի ընդհանուր գումարը (նվազման կարգով)"
+          }
+        },
+        "one_images_accessibility_label": "Պատվերը պարունակում է {{lineItemName1}}",
+        "two_images_accessibility_label": "Պատվերը պարունակում է {{lineItemName1}}, {{lineItemName2}}",
+        "three_images_accessibility_label": "Պատվերը պարունակում է՝ {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}",
+        "four_images_accessibility_label": "Պատվերը պարունակում է {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}}, {{lineItemName4}}",
+        "no_filtered_results_description": "Հեռացրեք կամ փոփոխեք զտիչները՝ ձեր պատվերները տեսնելու համար",
+        "no_filtered_results_title": "Արդյունքներ չկան զտիչը կիրառելուց հետո",
+        "estimated_shortform": "Ուղղ. {{date}}",
+        "payment_status": {
+          "list_view": {
+            "overdue": "Ժամկետանց է",
+            "due": "Գործում է մինչև՝ {{date}}",
+            "due_today": "Վճարման ժամկետն այսօր է։",
+            "due_without_date": "Ժամկետ",
+            "due_on_fulfillment": "Պատրաստ է կատարման",
+            "pay_to_confirm": "Վճարել հաստատելու համար",
+            "payment_not_due": "Ժամկետը դեռ չի լրացել",
+            "paid": "Վճարված է"
+          },
+          "gallery_view": {
+            "overdue": "Վճարումը ժամկետանց է",
+            "due": "Վճարման ժամկետ՝ {{date}}",
+            "due_today": "Վճարման ժամկետ",
+            "due_without_date": "Վճարման ժամկետ",
+            "due_on_fulfillment": "Վճարումը պատրաստ է կատարման",
+            "pay_to_confirm": "Վճարել հաստատելու համար",
+            "payment_not_due": "Վճարման ժամկետը դեռ չի լրացել"
+          }
+        },
+        "sort_currently_sorted_by_accessibility_label": "Ընթացիկ տեսակավորումը՝ {{option}}",
+        "carousel": {
+          "one_products_accessibility_label": "Պատվերը պարունակում է՝ {{lineItemName1}}՝ {{lineItemQuantity1}} հատ։",
+          "two_products_accessibility_label": "Պատվերը պարունակում է՝ {{lineItemName1}} — {{lineItemQuantity1}} հատ, {{lineItemName2}} — {{lineItemQuantity2}} հատ:",
+          "three_products_accessibility_label": "Պատվերը պարունակում է {{lineItemName1}}՝ {{lineItemQuantity1}} հատ, {{lineItemName2}}՝ {{lineItemQuantity2}} հատ, {{lineItemName3}}՝ {{lineItemQuantity3}} հատ։",
+          "four_products_accessibility_label": "Պատվերը պարունակում է՝ {{lineItemName1}}՝ {{lineItemQuantity1}} հատ, {{lineItemName2}}՝ {{lineItemQuantity2}} հատ, {{lineItemName3}}՝ {{lineItemQuantity3}} հատ, {{lineItemName4}}՝ {{lineItemQuantity4}} հատ։",
+          "five_products_accessibility_label": "Պատվերը պարունակում է {{lineItemName1}}՝ {{lineItemQuantity1}} հատ, {{lineItemName2}}՝ {{lineItemQuantity2}} հատ, {{lineItemName3}}՝ {{lineItemQuantity3}} հատ, {{lineItemName4}}՝ {{lineItemQuantity4}} հատ, {{lineItemName5}}՝ {{lineItemQuantity5}} հատ:",
+          "six_products_accessibility_label": "Պատվերը պարունակում է՝ {{lineItemName1}}՝ {{lineItemQuantity1}} հատ, {{lineItemName2}}՝ {{lineItemQuantity2}} հատ, {{lineItemName3}}՝ {{lineItemQuantity3}} հատ, {{lineItemName4}}՝ {{lineItemQuantity4}} հատ, {{lineItemName5}}՝ {{lineItemQuantity5}} հատ, {{lineItemName6}}՝ {{lineItemQuantity6}} հատ։",
+          "six_and_more_products_accessibility_label": "Պատվերը պարունակում է՝ {{lineItemName1}} — {{lineItemQuantity1}} հատ, {{lineItemName2}} — {{lineItemQuantity2}} հատ, {{lineItemName3}} — {{lineItemQuantity3}} հատ, {{lineItemName4}} — {{lineItemQuantity4}} հատ, {{lineItemName5}} — {{lineItemQuantity5}} հատ, {{lineItemName6}} — {{lineItemQuantity6}} հատ և ավելին",
+          "view_order_details": "Դիտել պատվերի մանրամասները",
+          "previous": "Հետ",
+          "next": "Հաջորդը"
+        },
+        "show_order_actions_accessibility_label": "Ցուցադրել պատվերի գործողությունները {{name}}",
+        "empty_state_title_for_pending_orders": "Պատվերներ չկան՝ սպասելով մշակման",
+        "more_than_four_products_accessibility_label": "Պատվերը պարունակում է {{lineItemName1}}, {{lineItemName2}}, {{lineItemName3}} և {{numberOfAdditionalProducts}} ապրանք:",
+        "plus_more_products": "+ {{numberOfAdditionalProducts}} ապրանք",
+        "order_status_message": {
+          "list_view": {
+            "view_order_for_details": "Դիտել պատվերի մանրամասները",
+            "estimated_delivery": "Առաքման սպասվող ամսաթիվը՝ {{date}}",
+            "last_updated": "Վերջին թարմացումը՝ {{date}}"
+          },
+          "table_view": {
+            "estimated_delivery": "Առաքման մոտավոր ժամանակը՝ {{date}}"
+          }
+        },
+        "more_than_three_products_accessibility_label": "Պատվերը պարունակում է {{lineItemName1}}, {{lineItemName2}} և {{numberOfAdditionalProducts}} ապրանք:",
+        "filter_title": "Տեսակավորում",
+        "filter": {
+          "clear_section": "Հեռացնել բաժինը",
+          "clear_all": "Ջնջել ամբողջը",
+          "apply": "Կիրառել",
+          "date": {
+            "start_date": "Տեղադրման ամսաթիվը",
+            "end_date": "Փակման ամսաթիվը",
+            "title": "Տեղադրման ամսաթիվ",
+            "today": "Այսօր",
+            "last_7_days": "Վերջին 7 օրվա ընթացքում",
+            "last_30_days": "Վերջին 30 օրվա ընթացքում",
+            "last_90_days": "Վերջին 90 օրվա ընթացքում",
+            "last_365_days": "Վերջին 12 ամսվա ընթացքում",
+            "custom": "Այլ"
+          }
+        },
+        "no_order_banner": "Ստեղծեք պատվեր՝ պատվերի կարգավիճակի էջում ընդլայնումը ստուգելու համար։",
+        "location_filter_picker": {
+          "all_location": "Բոլոր տեղերը",
+          "current_location": "Ընթացիկ դիրք",
+          "switch_view": "Փոխել տեսքը"
+        },
+        "empty_state_with_location_title": "{{locationName}}: պատվերներ չկան",
+        "view_order": "Դիտել պատվերը",
+        "view_order_accessibility_label": "Դիտել պատվերը {{orderName}}"
       },
-      "add_success": {
-        "done_button": "Շարունակել գնումները"
+      "order_status": {
+        "preparing_for_shipping_label": "Պատրաստվում է առաքման",
+        "ready_for_pickup_label": "Կարելի է վերցնել։",
+        "ready_for_pickup_description": "Ապրանքները կարելի է վերցնել։ Դուք պետք է պատվերի հաստատումը ներկայացնեք հանձնման կետում։",
+        "picked_up_label": "Պատվերն ընդունված է",
+        "submitted_description": "Դիտել պատվերի և վճարման տվյալները։",
+        "last_updated": "Վերջին թարմացումը՝ {{date}}",
+        "multiple_shipments_label": "Մի քանի առաքանիներ",
+        "view_order_for_details": "Դիտել պատվերի տվյալները",
+        "confirmed_description_digital": "Դուք էլեկտրոնային նամակ կստանաք, երբ պատվերն արդեն պատրաստ լինի։",
+        "delivered_description_gift_card": {
+          "one": "Նվեր քարտը ուղարկվել է էլ. փոստով։",
+          "other": "Նվեր քարտերն ուղարկվել են էլեկտրոնային փոստով։",
+          "few": "Նվեր քարտերն ուղարկվել են էլեկտրոնային փոստով։",
+          "many": "Նվեր քարտերն ուղարկվել են էլեկտրոնային փոստով։"
+        },
+        "gift_card_label": {
+          "one": "Նվեր քարտ",
+          "other": "Նվեր քարտեր",
+          "few": "Նվեր քարտեր",
+          "many": "Նվեր քարտեր"
+        },
+        "ready_for_pickup_location": "Դուք կարող եք վերցնել պատվերը ինքնահոսքի կետից",
+        "confirmed_description_pickup": "Դուք էլեկտրոնային նամակ կստանաք, երբ պատվերը հնարավոր լինի վերցնել։",
+        "confirmed_gift_card_additional_description": {
+          "one": "Նվեր քարտը կուղարկվի առանձին էլեկտրոնային նամակով։",
+          "other": "Յուրաքանչյուր նվեր քարտ կուղարկվի էլեկտրոնային փոստով՝ առանձին նամակով։",
+          "few": "Յուրաքանչյուր նվեր քարտ կուղարկվի էլեկտրոնային փոստով՝ առանձին նամակով։",
+          "many": "Յուրաքանչյուր նվեր քարտ կուղարկվի առանձին նամակով՝ էլեկտրոնային փոստի միջոցով։"
+        },
+        "confirmed_description_gift_card_text": "Դուք հաղորդագրություն կստանաք, երբ պատվերն պատրաստ լինի։",
+        "delivered_description_gift_card_text": {
+          "one": "Նվեր քարտը ուղարկվել է հաղորդագրությամբ։",
+          "other": "Նվեր քարտերն ուղարկվել են հաղորդագրությամբ։",
+          "few": "Նվեր քարտերն ուղարկվել են հաղորդագրությամբ։",
+          "many": "Նվեր քարտերն ուղարկվել են հաղորդագրությամբ։"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "Նվեր քարտը կուղարկվի առանձին հաղորդագրությամբ։",
+          "other": "Յուրաքանչյուր նվեր քարտ կուղարկվի առանձին հաղորդագրությամբ։",
+          "few": "Յուրաքանչյուր նվեր քարտ կուղարկվի առանձին հաղորդագրությամբ։",
+          "many": "Յուրաքանչյուր նվեր քարտ կուղարկվի առանձին հաղորդագրությամբ։"
+        },
+        "gift_resend_success": {
+          "one": "Նվեր քարտն ուղարկված է",
+          "other": "Նվեր քարտերն ուղարկված են",
+          "few": "Նվեր քարտերն ուղարկված են",
+          "many": "Նվեր քարտերն ուղարկված են"
+        },
+        "gift_resend_failure": {
+          "one": "Ձեր նվեր քարտը կրկին ուղարկելիս խնդիր է առաջացել։ Խնդրում ենք նորից փորձել կամ կապվել մեզ հետ։",
+          "other": "Ձեր նվեր քարտերը կրկին ուղարկելիս խնդիր է առաջացել։ Խնդրում ենք նորից փորձել կամ կապվել մեզ հետ։",
+          "few": "Ձեր նվեր քարտերը կրկին ուղարկելիս խնդիր առաջացավ: Խնդրում ենք կրկին փորձել կամ կապ հաստատել մեզ հետ։",
+          "many": "Ձեր նվեր քարտերը կրկին ուղարկելիս խնդիր առաջացավ։ Խնդրում ենք նորից փորձել կամ կապվել մեզ հետ։"
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "Կառավարել Amazon-ի միջոցով",
+            "new_window_disclaimer": "(բացվում է նոր պատուհանում)"
+          }
+        },
+        "attempted_to_deliver_label": "Առաքման փորձ",
+        "there_was_a_problem_label": "Խնդիր է առաջացել",
+        "buy_with_prime_logo_accessibility_label": "Buy with Prime Amazon-ի լոգոն",
+        "delivered": "Ժամանում՝ {{date}}",
+        "complete_label": "Ավարտված է",
+        "multiple_statuses_label": "Պատվերի մի քանի կարգավիճակ",
+        "status_timestamp": "Թարմացվել է՝ {{date}}",
+        "delivery_promise": {
+          "claim_shop_cash_cta": {
+            "no_shop_app_label": "{{appDownloadLink}}՝ Shop Cash ստանալու համար",
+            "has_shop_app_label": "Ստացեք Shop Cash",
+            "download_shop_app_label": "Ներբեռնեք Shop հավելվածը"
+          },
+          "promise_line": {
+            "single_brand_label": "Առաքում՝ աջակցությամբ",
+            "mixed_brands_label": "Պատվերը երաշխավորված կառաքվի",
+            "not_delivered_by_label": "Չի առաքվել մինչև {{date}}",
+            "modal_accessibility_button_label": "Առաքման ժամկետների վերաբերյալ տվյալներ"
+          },
+          "details_modal": {
+            "title": "Առաքում՝ աջակցությամբ",
+            "modal_accessiblity_label": "Առաքման ժամկետների վերաբերյալ տվյալներ",
+            "delivery_by_label": "Առաքում մինչև {{date}}",
+            "delivery_guaranteed_by_label": "Պատվերը երաշխավորված կերպով կառաքվի մինչև {{date}}",
+            "shop_cash_claim": {
+              "may_be_eligible_label": "Shop Promise-ը երաշխավորում է արագ և հուսալի առաքում։ Եթե Ձեր պատվերը ժամանակին չառաքվի, ապա Դուք կկարողանաք ստանալ Shop Cash։",
+              "may_be_eligible_not_authorized_label": "Այս պատվերը ժամանակին չի առաքվել, ուստի դուք կարող եք իրավունք ունենալ ստանալու Shop Cash: Մուտք գործեք՝ մանրամասները դիտելու համար:",
+              "redeemed_label": "Դուք արդեն ստացել եք Shop Cash, քանի որ այս պատվերը ժամանակին չի առաքվել:",
+              "expired_label": "Դուք չեք կարող փոխհատուցում ստանալ այս պատվերի ուշ առաքման համար, քանի որ լրացել է 30-օրյա երաշխիքի ժամկետը:",
+              "no_shop_cash_label": "Չեք կարող փոխհատուցում ստանալ այս պատվերի ուշ առաքման համար, քանի որ այն չի վճարվել Shop Pay-ի միջոցով։",
+              "no_longer_guaranteed_label": "Առաքման երաշխիքն այլևս հասանելի չէ այս ապրանքների համար։",
+              "claim_shop_cash_title": "Սկանավորեք՝ {{amount}} Shop Cash ստանալու համար",
+              "claim_shop_cash_description": "Shop Cash-ը կարող եք օգտագործել Shop հավելվածում հետևյալ գնումների համար:"
+            },
+            "delivery_guarantee_label": "Առաքման երաշխիք"
+          }
+        },
+        "external_promise_manage_button_label": {
+          "buy_with_prime": "Կառավարել Amazon-ում"
+        },
+        "delivery_promise_v2": {
+          "promise_line": {
+            "shop_promise_brand_label": "Առաքումը երաշխավորում է",
+            "external_promise_brand_label": "Առաքում մինչև",
+            "not_delivered_by_label": "Առաքվել է {{date}}-ից հետո",
+            "delivery_guarantee_expired_label": "Առաքման երաշխիքի ժամկետը լրացել է",
+            "modal_accessibility_button_label": "Առաքման ժամկետների վերաբերյալ տվյալներ",
+            "download_shop_app_button_label": "Ներբեռնել Shop-ը՝ հետևելու համար",
+            "track_with_shop_button_label": "Ուղի` Խանութով",
+            "claim_shop_cash_button_label": "Ստացեք Shop Cash"
+          },
+          "details_modal": {
+            "title": "Առաքման երաշխիք",
+            "active_delivery_guarantee_label": "Առաքում մինչև {{date}}",
+            "expired_delivery_guarantee_description": "Shop Promise 30-օրյա երաշխիքի ժամկետը տվյալ պատվերի համար լրացել է։",
+            "expired_badge_label": "Ժամկետն ավարտվել է",
+            "order_includes_guarantees_label": "Ձեր պատվերի համար գործում են երաշխիքներ ({{deliveryAgreementsCount}})",
+            "order_includes_guarantees_description": "Shop Promise-ը երաշխավորում է արագ և հուսալի առաքում։ Եթե ձեր պատվերը առաքվի {{date}}-ից հետո, դուք կարող եք ստանալ Shop Cash։",
+            "delivered_after_label": "Առաքված է {{date}}-ից հետո",
+            "delivered_after_description": "Քանի որ ձեր պատվերը ժամանակին չի առաքվել, դուք կարող եք ստանալ {{amount}} Shop Cash:",
+            "claimed_shop_cash_description": "Քանի որ այս պատվերը ժամանակին չի առաքվել, դուք ստացել եք {{amount}} Shop Cash:",
+            "eligible_to_claim_shop_cash_description": "Քանի որ ձեր պատվերը չի առաքվել ժամանակին, դուք կարող եք ստանալ {{amount}} Shop Cash։",
+            "learn_more_button_label": "Մանրամասն",
+            "claim_shop_cash_button_label": "Ստացեք Shop Cash",
+            "view_balance_in_shop_button_label": "Դիտել մնացորդը Shop-ում",
+            "scan_to_claim_shop_cash_label": "Սկանավորեք՝ {{amount}} Shop Cash ստանալու համար"
+          }
+        },
+        "tracking_number": {
+          "one": "Առաքման համարը",
+          "other": "Հետևելու համարներ",
+          "few": "Հետևելու համարները",
+          "many": "Հետևման համարներ"
+        },
+        "gift_card_resend_button": {
+          "one": "Նորից ուղարկել նվեր քարտը",
+          "other": "Կրկին ուղարկել նվեր քարտերը",
+          "few": "Նորից ուղարկել նվեր քարտերը",
+          "many": "Նվեր քարտերը նորից ուղարկել"
+        },
+        "expected_by": "Սպասվում է մինչև {{date}}",
+        "was_expected_by": "Սպասվում էր մինչև {{date}}",
+        "canceled_label": "Չեղարկված է",
+        "canceled_title": "Ձեր պատվերը չեղարկված է",
+        "come_back": "Վերադարձեք այս էջ՝ առաքման կարգավիճակին հետևելու համար։",
+        "company_tracking_number": "Առաքման համարը՝ {{company}}-ից.",
+        "confirmed_label": "Հաստատված է",
+        "confirmed_title": "Ձեր պատվերը հաստատված է",
+        "delivered_label": "Առաքված է",
+        "estimated_delivery": "Առաքման սպասվող ամսաթիվը՝ {{date}}",
+        "in_review_label": "Քննարկման մեջ է",
+        "in_review_title": "Ձեր պատվերը ստուգվում է",
+        "no_tracking_number": "Այս պատվերում հետևման համարը նշված չէ։",
+        "on_its_way_label": "Ճանապարհին",
+        "out_for_delivery_label": "Ուղարկման կետում",
+        "resume_tracking": "Վերսկսել հետևելը",
+        "submitted_label": "Ուղարկված է",
+        "track_shipment": "Առաքման հետևում",
+        "request_return": "Ձևակերպել վերադարձի հարցումը",
+        "attempted_delivery_label": "Առաքման փորձ"
+      },
+      "status_mark_as_delivered": "Նշել որպես առաքված",
+      "buy_again": "Գնել ևս մեկ անգամ",
+      "buy_again_accessibility_label": "Կրկնել գնումը {{orderId}}",
+      "manage": "Կարգավորել",
+      "manage_accessiblity_label": "Պատվեր {{orderId}}-ի կարգավորում",
+      "fulfillment_status_title": "Կատարման կարգավիճակ՝ {{status}}",
+      "list_title_with_pending_orders": "Պատվերներ.",
+      "list_title_confirmed_orders_accessibility_label": "Պատվերներ՝ հաստատված",
+      "list_title_pending_orders_accessibility_label": "Պատվերներ՝ սպասում են ձևակերպման",
+      "switch_order_type_pending_orders_accessibility_label": "Փոխել պատվերների տեսակը (այժմ դիտվում են ձևակերպման ենթակա պատվերները)",
+      "switch_order_type_confirmed_orders_accessibility_label": "Փոխել պատվերների տեսակը (այժմ դիտվում են հաստատված պատվերները)",
+      "group_title_label": "Մաս՝ {{groupTitle}}",
+      "group_title_label_with_parent": "Ում՝ {{groupTitle}}"
+    },
+    "order_details": {
+      "addresses_section_title": "Վճարում և առաքում",
+      "billing_address": "Հաշիվ-ապրանքագրի հասցե",
+      "card_ending_with": "ավարտվում է {{lastDigits}}-ով",
+      "contact": "Կոնտակտային տվյալներ",
+      "hide_items": "Թաքցնել դիրքերը",
+      "loading": "Պատվերի մանրամասների բեռնում",
+      "loading_finished_accessibility_message": "Պատվերի մանրամասները բեռնված են",
+      "payment": {
+        "status_in_review": "Վճարումը կատարվում է ստուգումից հետո։",
+        "status_unpaid": "Վճարման ժամկետը՝ {{date}}",
+        "title": "Վճարում",
+        "card_payment_details": "վերջանում է {{lastDigits}}-ով՝ {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "Վճարված է Shop Pay-ի պարբերական վճարումներով",
+          "view_schedule": "Դիտել ժամանակացույցը"
+        },
+        "gift_card_payment_details": "վերջանում է {{lastDigits}}-ով՝ {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "Դրամական փոխանցում՝ {{formattedTransactionAmount}}",
+          "cash_on_delivery": "Կանխիկ՝ առաքման դեպքում՝ {{formattedTransactionAmount}}",
+          "bank_deposit": "Բանկային ավանդ՝ {{formattedTransactionAmount}}",
+          "manual": "Ձեռքով՝ {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "Ապրանքային վարկ՝ {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "Ցույց տալ բոլորը",
+          "show_less": "Ցույց տալ ավելի քիչ",
+          "details": "Տվյալներ",
+          "payment_details": "Վճարային մանրամասներ"
+        },
+        "emv_details": {
+          "auth": "ՀԵՂԻՆԱԿ՝",
+          "aid": "ՄԻԱՎ՝",
+          "source": "ԱՂԲՅՈՒՐ:"
+        },
+        "payment_type": {
+          "gift_card": "Նվեր քարտ",
+          "store_credit": "Վարկ խանութ գնելու համար",
+          "money_order": "Դրամական փոխանցում",
+          "cash_on_delivery": "Կանխիկ՝ առաքման դեպքում",
+          "bank_deposit": "Բանկային ավանդ",
+          "manual": "Ձեռքով"
+        }
+      },
+      "shipping": {
+        "address": "Առաքման հասցե",
+        "address_map_marker": "Առաքման հասցե",
+        "method": "Առաքման եղանակ",
+        "summary": "Առաքում",
+        "free": "Անվճար",
+        "free_shipping_discount": "Անվճար առաքում",
+        "one_time": "Մեկ առաքում",
+        "subscription": "Առաքում բաժանորդագրությամբ"
+      },
+      "show_items": "Ցույց տալ դիրքերը",
+      "subtitle": "Հաստատված է {{date}}",
+      "subtotal": "Միջանկյալ արդյունք",
+      "summary_list_title_accessibility_label": "Պատվերի դիրքեր",
+      "summary_title": "Պատվերի տվյալներ",
+      "summary_totals_title_accessibility_label": "Պատվերի ընդհանուր գումարը",
+      "taxes": "Հարկեր",
+      "title": "Պատվեր՝ {{name}}",
+      "total": "Ընդհանուր գումարը",
+      "unit_price": "{{price}}/յուր.",
+      "location": "Դիրք",
+      "not_applicable": "Տվյալներ չկան",
+      "fully_refunded_label": "ՄԻՋՈՑՆԵՐԸ ՎԵՐԱԴԱՐՁՎԵԼ ԵՆ",
+      "partially_refunded_label": "ՄԻՋՈՑՆԵՐԸ ՄԱՍՆԱԿԻ ԷՆ ՎԵՐԱԴԱՐՁՎԵԼ",
+      "refunded_amount": "Միջոցները վերադարձված են",
+      "discount": "Զեղչ",
+      "no_data": "Ոչ",
+      "pagination": {
+        "load_more": "Բեռնել ավելին",
+        "load_more_accessibility_label": "Բեռնել ավելի շատ պատվերներ",
+        "loading_accessibility_label": "Բեռնվում է"
+      },
+      "returns": {
+        "expand_events_label": "Ցույց տալ տվյալները",
+        "hide_events_label": "Թաքցնել տվյալները",
+        "print_shipping_label": "Տպել տրանսպորտային պիտակներ",
+        "tracking_number": "Հետևման համարը:",
+        "return_and_refund_modal_header": "Միջոցների վերադարձի քաղաքականություն",
+        "ineligible_return_message": "Այս պատվերում չկան վերադարձման ենթակա ապրանքներ։",
+        "ineligible_return_message_when_returned": "Այս պատվերում վերադարձման ենթակա լրացուցիչ ապրանքներ չկան։",
+        "exchange_header": "Փոխանակման ենթակա ապրանքներ",
+        "exchange_subheader": "Փոխարինվող ապրանքները կավելացվեն պատվերին վերադարձի ավարտից հետո։"
+      },
+      "request_return_failed": "Ձեր հարցման մշակման ժամանակ խնդիր առաջացավ։ Խնդրում ենք կրկին փորձել։",
+      "mobile_summary_toggle_button": {
+        "open": "Ցուցադրել պատվերի մանրամասները",
+        "closed": "Թաքցնել պատվերի մանրամասները"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "Ցուցադրել տվյալները",
+        "expand_events_accessibility_label": "Ցուցադրել պատվերի առաքման տվյալները",
+        "hide_events_label": "Թաքցնել տվյալները",
+        "hide_events_accessibility_label": "Թաքցնել պատվերի առաքման տվյալները"
+      },
+      "show_order_summary": "Ցուցադրել պատվերի մանրամասները",
+      "hide_order_summary": "Թաքցնել պատվերի մանրամասները",
+      "company": "Ընկերություն",
+      "no_data_provided_accessibility_label": "«{{fieldName}}» դաշտը դատարկ է",
+      "marketing_section_title": "Նորություններ և առաջարկներ",
+      "marketing_description": "Դուք կստանաք գովազդային նյութեր պարունակող էլեկտրոնային նամակներ։ Դուք կարող եք ցանկացած պահի հրաժարվել բաժանորդագրությունից։",
+      "marketing_checkbox_label": "Ուղարկեք ինձ նորություններ և առաջարկներ",
+      "marketing_checkmark_label": "Դուք բաժանորդագրված եք էլեկտրոնային տեղեկագրերին և առաջարկներին",
+      "image_gallery": {
+        "product_name_and_quantity": "{{productName}}՝ {{quantity}} հատ։",
+        "next": "Ցուցադրել հաջորդ տարրերը",
+        "previous": "Ցուցադրել նախորդ տարրերը",
+        "load_more_items": {
+          "one": "Բեռնել պատվերները՝ {{count}}",
+          "other": "Բեռնել պատվերները՝ {{count}}",
+          "few": "Բեռնել պատվերները՝ {{count}}",
+          "many": "Բեռնել պատվերները: {{count}}"
+        }
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "Բեռնել Shop՝ առաքումը հետևելու համար",
+        "track_order_with_shop": "Հետևեք պատվերին Shop-ի միջոցով",
+        "title_header": "Սկանավորեք կոդը հեռախոսով",
+        "real_time_delivery_updates": "Պատվերն ուղարկելուց հետո Shop-ը ձեզ իրական ժամանակում թարմ տեղեկություններ կուղարկի դրա տեղաշարժի մասին։"
+      },
+      "shop_pay": {
+        "order_completed_with": "Պատվերը կատարված է ժամը",
+        "learn_more": "Մանրամասն"
+      },
+      "edit_summary": {
+        "added": "Ավելացված է",
+        "added_with_quantity": "Ավելացված է՝ {{quantity}}",
+        "removed": "Ջնջված է",
+        "removed_with_quantity": "Հեռացված է՝ {{quantity}}",
+        "updated_at": "Ձեր պատվերը թարմացվել է {{date}}",
+        "returned": "Վերադարձված է",
+        "returned_with_quantities": "Վերադարձվել է {{delta}}-ը {{total}}-ից",
+        "removed_with_quantities": "Հեռացված է՝ {{delta}} / {{total}}",
+        "return_line_item_removed": "Հեռացված է վերադարձից",
+        "return_line_item_removed_with_quantities": "Հեռացվել է վերադարձից՝ {{delta}}"
+      },
+      "pickup": {
+        "pickup": "Ինքնավերցում",
+        "pickup_location": "Ինքնասպասարկման կետ",
+        "pickup_point": "Ինքնավերցման կետ"
+      },
+      "paid_with_shop_pay_installments_card": {
+        "paid_with_shop_pay_installments": "Վճարված է Shop Pay-ի պարբերական վճարումներով",
+        "description": "Հետևե՛ք ձեր վճարումների ժամանակացույցին՝ օգտագործելով Shop հավելվածի հիշեցումները։",
+        "payment_reminders_button": "Ստանալ վճարման հիշեցումներ",
+        "desktop_qr_code_content": {
+          "title": "Ստուգել հիշեցումները",
+          "description": "Ստացեք Shop-ի միջոցով ապառիկ վճարումների մասին հիշեցումներ:"
+        },
+        "title": "Shop Pay-ի ապառիկ վճարումների հիշեցումներ"
+      },
+      "order_details": "Պատվերի մանրամասներ",
+      "contact_information": "Կոնտակտային տվյալներ",
+      "login_to_view_all_order_details": "Մուտք գործեք՝ պատվերի բոլոր մանրամասները դիտելու համար։",
+      "log_in": "Մուտք գործել",
+      "paid_amount": "Վճարված է",
+      "remaining_amount": "Վճարման ենթակա է",
+      "order_details_skeleton_accessibility_label": "Մուտք գործեք՝ պատվերի մանրամասները դիտելու համար:",
+      "tip": "Թեյավճար",
+      "logged_in_account_no_permission_to_order": "Դուք մուտք եք գործել որպես {{email}}։ Այս հաշիվը թույլտվություն չունի կառավարելու այս պատվերը։",
+      "log_in_to_a_different_account": "Մուտք գործել այլ հաշիվ",
+      "duties": "Մաքսատուրքեր",
+      "ok_duties_tooltip": "Այս ապրանքն առաքվում է այլ երկրից, ուստի պատվերի ընդհանուր գումարին ավելացվել է մաքսատուրք։",
+      "error_duties_tooltip": "Այս ապրանքն առաքվում է այլ երկրից, հետևաբար պատվերի ընդհանուր գումարին կարող են ավելացվել տուրքեր և հարկեր։",
+      "zero_duties_tooltip": "Այս ապրանքն առաքվում է այլ երկրից։ Նման գումարների պատվերների դեպքում մաքսատուրքեր չեն գանձվում։",
+      "group_title_label": "Մաս՝ {{groupTitle}}",
+      "fees": {
+        "restocking_fee": "Ապրանքի վերադարձման միջնորդավճար",
+        "return_shipping_fee": "Ապրանքի վերադարձ"
+      },
+      "vat_invoices": {
+        "title": "ԱԱՀ հաշիվներ"
+      },
+      "taxes_included": "Ներառյալ {{amount}}՝ որպես հարկեր",
+      "duties_and_taxes_included": "Վերջնական գումարը ներառում է մաքսատուրքեր և հարկեր։ Առաքման դեպքում լրացուցիչ վճարներ չեն գանձվում։",
+      "grouped_view_components": {
+        "expand_line_items": "Ցույց տալ {{count}} միավոր",
+        "collapse_line_items": "Թաքցնել {{count}} միավոր",
+        "line_item_summary": "{{productTitle}} ({{refundableQuantity}} հատ)",
+        "line_item_summary_accessibility_label": "{{productTitle}}՝ {{refundableQuantity}} հատ",
+        "line_item_summary_list_accessibility_label": "Ապրանքներ «{{productTitle}}» հավաքածուում"
+      },
+      "cash_rounding": "Գումարի կլորացում կանխիկի դեպքում",
+      "adjusted_payment": "Վճարման ճշգրտված գումար",
+      "adjusted_total": "Ճշգրտված ընդհանուր գումար",
+      "login_card": {
+        "log_in": "Մուտք գործել",
+        "link_expired": "Հղման գործողության ժամկետը սպառվել է",
+        "resend_link_and_login": "Ձեր պատվերի մանրամասները դիտելու համար մուտք գործեք համակարգ կամ նոր հղում ուղարկեք այն էլեկտրոնային փոստի հասցեին կամ հեռախոսահամարին, որն օգտագործել եք պատվերը կատարելիս:",
+        "resend_link_only": "Ձեր պատվերի մանրամասները դիտելու համար նոր հղում ուղարկեք այն էլ․ հասցեին կամ հեռախոսահամարին, որոնք օգտագործվել են պատվերը կատարելիս։",
+        "resend_link": "Ուղարկել նոր հղում",
+        "title": "Պատվերի տվյալների հասանելիություն"
+      },
+      "link_sent": "Հղումն ուղարկվել է",
+      "view_controls": {
+        "gallery": "Պատկերասրահ",
+        "list": "Ցուցակ"
+      },
+      "company_and_location": "Ընկերություն և գտնվելու վայրը",
+      "group_title_label_with_parent": "Ում: {{groupTitle}}",
+      "due_on_date": "Վճարման ժամկետը՝ {{date}}",
+      "due_on_fulfillment": "Վճարել կատարելուց հետո",
+      "due_on_receipt": "Վճարում առաքման դեպքում",
+      "payment_confirmation": {
+        "payment_received": "Շնորհակալություն։ {{amount}} վճարումը ստացվել է։",
+        "full_payment_received": "Շնորհակալություն։ {{amount}} վճարումը ստացվել է։ Այս պատվերն ամբողջությամբ վճարված է։",
+        "dismiss_label": "Փակել վճարման հաստատումը",
+        "payment_authorized": "Շնորհակալություն։ Մնացորդը կթարմացվի վճարումը ստանալուց հետո։"
+      },
+      "compare_at_sale": "Վաճառք ({{saleAmount}})",
+      "marketing_pending_confirmation": "Հաստատելու համար անցեք նամակում նշված հղումով։",
+      "marketing_resend_email": "Նամակը կրկին ուղարկել",
+      "marketing_resend_email_success": "Հղումն ուղարկված է",
+      "subtotal_label_with_quantity": {
+        "one": "Միջանկյալ արդյունք",
+        "other": "Միջանկյալ արդյունք · {{count}} ապրանք",
+        "few": "Միջանկյալ արդյունք · {{count}} ապրանք",
+        "many": "Միջանկյալ արդյունք · {{count}} ապրանք"
+      },
+      "total_savings": "Ընդհանուր խնայողություն",
+      "price_before_discount_accessibility_label": "Սկզբնական գին",
+      "price_after_discount_accessibility_label": "Զեղչված գին",
+      "discount_order_stacking": {
+        "one": "Զեղչ պատվերի համար",
+        "other": "Զեղչեր պատվերի համար",
+        "few": "Զեղչեր պատվերի համար",
+        "many": "Զեղչեր պատվերի համար"
       }
     }
-  },
-  "blocks": {
-    "load_video": "Տեսանյութի վերբեռնում՝ {{ description }}",
-    "sold_out": "Վաճառված է",
-    "email_signup": {
-      "label": "Էլեկտրոնային հասցե",
-      "placeholder": "Էլեկտրոնային փոստի հասցե",
-      "success": "Շնորհակալություն բաժանորդագրվելու համար։"
-    },
-    "filter": "Զտել",
-    "payment_methods": "Վճարման եղանակներ",
-    "contact_form": {
-      "name": "Անուն",
-      "email": "Էլեկտրոնային հասցե",
-      "phone": "Հեռախոս",
-      "comment": "Մեկնաբանություն",
-      "post_success": "Շնորհակալություն դիմելու համար։ Մենք հնարավորինս շուտ կկապվենք Ձեզ հետ։",
-      "error_heading": "Փոփոխել հետևյալ տարրերը."
-    },
-    "slider_label": "Սահիկ"
   },
   "accessibility": {
     "play_model": "Բացել ծավալային մոդելը",
