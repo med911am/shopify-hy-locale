@@ -8,6 +8,9 @@ storefront work.
 
 - `locales/hy.json`: Armenian theme locale JSON with complete
   `shopify.checkout.*` coverage and customer order-history/order-detail strings.
+- `storefront/hy.json`: Armenian storefront copy overrides used for Med911
+  theme-template content that does not belong in Shopify's locale JSON, such as
+  homepage SEO/H1 copy and the custom 404 page.
 - All 2,564 checkout translation keys present in Shopify's
   `ONLINE_STORE_THEME_LOCALE_CONTENT` resource are present in the locale file.
 - `customer_accounts.orders.*` and `customer_accounts.order_details.*` are
@@ -42,6 +45,10 @@ Then publish Armenian (`hy`) in Shopify Admin:
 ```text
 Settings -> Languages
 ```
+
+For storefront template copy, use `storefront/hy.json` as a source map when
+registering translations through Shopify Admin API `translationsRegister` for
+theme JSON templates or when recreating those blocks in a new theme version.
 
 ## Verification
 
