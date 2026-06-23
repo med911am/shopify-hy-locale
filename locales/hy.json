@@ -3374,6 +3374,18 @@
     "page_titles": {
       "products": "Ապրանքներ",
       "shopping_cart": "Ձեր զամբյուղը"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "Սովորաբար պատրաստ է 1 ժամում",
+        "two_hours": "Սովորաբար պատրաստ է 2 ժամում",
+        "zero_to_two_hours": "Սովորաբար պատրաստ է 2 ժամում",
+        "four_hours": "Սովորաբար պատրաստ է 4 ժամում",
+        "two_to_four_hours": "Սովորաբար պատրաստ է 4 ժամում",
+        "twenty_four_hours": "Սովորաբար պատրաստ է 24 ժամում",
+        "two_to_four_days": "Սովորաբար պատրաստ է 2–4 օրում",
+        "five_or_more_days": "Սովորաբար պատրաստ է 5 կամ ավելի օրում"
+      }
     }
   },
   "content": {
@@ -3417,8 +3429,9 @@
     "duties_and_taxes_included_shipping_at_checkout_without_policy_without_discounts": "Մաքսատուրքերն ու հարկերը ներառված են։ Առաքումը կհաշվարկվի պատվերի ձևակերպման ժամանակ։",
     "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_without_discounts_html": "Մաքսատուրքերը ներառված են։ <a href=\"{{ link }}\">Առաքումը</a> կհաշվարկվի պատվերի ձևակերպման ժամանակ։",
     "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "Մաքսատուրքերը ներառված են։ Առաքումը կհաշվարկվի պատվերի ձևակերպման ժամանակ։",
-    "pickup_available_at_html": "Ինքնառաքում հասանելի է՝ <b>{{ location }}</b>",
+    "pickup_available_at_html": "Ինքնավերցումը հասանելի է՝ <b>{{ location }}</b>",
     "pickup_available_in": "Հասանելի է ինքնավերցում, {{ pickup_time }}",
+    "pickup_ready_in": "Սովորաբար պատրաստ է 2 ժամում",
     "pickup_not_available": "Ներկայումս ինքնասպասարկումը հասանելի չէ",
     "taxes_at_checkout_shipping_at_checkout_with_policy_without_discounts_html": "Հարկերը և <a href=\"{{ link }}\">առաքումը</a> կհաշվարկվեն պատվերի ձևակերպման ժամանակ։",
     "taxes_at_checkout_shipping_at_checkout_without_policy_without_discounts": "Հարկերը և առաքումը կհաշվարկվեն պատվերի ձևակերպման ժամանակ։",
@@ -4407,6 +4420,7 @@
     "log_in_html": "Արդեն ունե՞ք հաշիվ։ <a href=\"{{ link }}\">Մուտք գործեք</a>՝ պատվերը արագ ձևակերպելու համար։",
     "show_more": "Ցույց տալ ավելին",
     "show_less": "Ցույց տալ ավելի քիչ",
-    "sort": "Տեսակավորել"
+    "sort": "Տեսակավորել",
+    "view_store_information": "Խանութի տվյալներ"
   }
 }
